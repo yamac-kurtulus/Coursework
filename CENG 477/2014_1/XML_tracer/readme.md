@@ -1,0 +1,1 @@
+A simple ray tracer implementation in C++ along with models as XML files. An assignment I had given for Computer graphics class in METU.

@@ -1,0 +1,5600 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Scene>
+	<AmbientLight> 40 40 40 </AmbientLight>
+	<BackgroundColor> 0 0 0 </BackgroundColor>
+	<RayReflectionCount> 1 </RayReflectionCount>	
+	<Camera id = "1">
+		<Position> 0 2 8 </Position>
+		<Gaze>0 0 -1 </Gaze>
+		<Up> 0 1 0 </Up>
+		<ImagePlane> -1 1 -1 1 3  512 512 </ImagePlane>
+		<OutputName> armchair1.ppm </OutputName>
+	</Camera>
+	<Camera id = "2">
+		<Position> 0 10 0 </Position>
+		<Gaze>0 -1 0 </Gaze>
+		<Up> -0.9999 0 0 </Up>
+		<ImagePlane> -1 1 -1 1 3  512 512 </ImagePlane>
+		<OutputName> armchair2.ppm </OutputName>
+	</Camera>
+	<Camera id = "3">
+		<Position> 3 5 7 </Position>
+		<Gaze>-0.348743 -0.464991 -0.813733 </Gaze>
+		<Up> -0.162162 0.783783 -0.378379 </Up>
+		<ImagePlane> -1 1 -1 1 3  512 512 </ImagePlane>
+		<OutputName> armchair3.ppm </OutputName>
+	</Camera>
+	<Material id="1">
+		<Ambient> 1 0.5 0.5 </Ambient>
+		<Diffuse> 0.8 0.2 0.2 </Diffuse>
+		<Specular> 0.5 0 0 10 </Specular>
+		<Reflectance> 0 0 0 </Reflectance>
+	</Material>	
+	<Material id="2">
+		<Ambient> 1 1 1 </Ambient>
+		<Diffuse> 0.5 0.5 0.5 </Diffuse>
+		<Specular> 0 0 0 1 </Specular>
+		<Reflectance> 1 1 1 </Reflectance>
+	</Material>	
+		<PointLight id=1>
+		<Position>-2 6 2</Position>
+		<Intensity>200000 200000 200000</Intensity>
+	</PointLight>
+	<Vertex id = "1">
+		<Coordinates> 0.550891 1.030880 0.770311 </Coordinates>
+	</Vertex>
+	<Vertex id = "2">
+		<Coordinates> 0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "3">
+		<Coordinates> 0.591924 0.968059 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "4">
+		<Coordinates> 0.590263 0.914751 0.536854 </Coordinates>
+	</Vertex>
+	<Vertex id = "5">
+		<Coordinates> 0.539756 0.914332 0.093378 </Coordinates>
+	</Vertex>
+	<Vertex id = "6">
+		<Coordinates> 0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "7">
+		<Coordinates> -0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "8">
+		<Coordinates> -0.550891 1.030880 0.770311 </Coordinates>
+	</Vertex>
+	<Vertex id = "9">
+		<Coordinates> -0.591924 0.968058 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "10">
+		<Coordinates> -0.590263 0.914751 0.536854 </Coordinates>
+	</Vertex>
+	<Vertex id = "11">
+		<Coordinates> -0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "12">
+		<Coordinates> -0.539757 0.914332 0.093378 </Coordinates>
+	</Vertex>
+	<Vertex id = "13">
+		<Coordinates> 0.485094 0.970107 -0.353275 </Coordinates>
+	</Vertex>
+	<Vertex id = "14">
+		<Coordinates> 0.551684 1.093710 0.763913 </Coordinates>
+	</Vertex>
+	<Vertex id = "15">
+		<Coordinates> 0.550418 1.156540 0.756765 </Coordinates>
+	</Vertex>
+	<Vertex id = "16">
+		<Coordinates> 0.907346 1.030880 0.757863 </Coordinates>
+	</Vertex>
+	<Vertex id = "17">
+		<Coordinates> 0.897772 0.968059 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "18">
+		<Coordinates> 0.846119 1.013670 -0.399218 </Coordinates>
+	</Vertex>
+	<Vertex id = "19">
+		<Coordinates> 0.864947 0.954457 0.074257 </Coordinates>
+	</Vertex>
+	<Vertex id = "20">
+		<Coordinates> 0.842981 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "21">
+		<Coordinates> -0.550418 1.156540 0.756765 </Coordinates>
+	</Vertex>
+	<Vertex id = "22">
+		<Coordinates> -0.551684 1.093710 0.763913 </Coordinates>
+	</Vertex>
+	<Vertex id = "23">
+		<Coordinates> -0.485095 0.970107 -0.353275 </Coordinates>
+	</Vertex>
+	<Vertex id = "24">
+		<Coordinates> -0.842982 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "25">
+		<Coordinates> -0.864947 0.954457 0.074258 </Coordinates>
+	</Vertex>
+	<Vertex id = "26">
+		<Coordinates> -0.846120 1.013670 -0.399217 </Coordinates>
+	</Vertex>
+	<Vertex id = "27">
+		<Coordinates> -0.897773 0.968058 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "28">
+		<Coordinates> -0.907346 1.030880 0.757863 </Coordinates>
+	</Vertex>
+	<Vertex id = "29">
+		<Coordinates> 0.559451 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "30">
+		<Coordinates> 0.502999 1.144210 -0.355541 </Coordinates>
+	</Vertex>
+	<Vertex id = "31">
+		<Coordinates> 0.475609 1.041800 -0.353561 </Coordinates>
+	</Vertex>
+	<Vertex id = "32">
+		<Coordinates> 0.764717 1.213950 -0.267438 </Coordinates>
+	</Vertex>
+	<Vertex id = "33">
+		<Coordinates> 0.737675 1.213950 -0.233697 </Coordinates>
+	</Vertex>
+	<Vertex id = "34">
+		<Coordinates> 0.724656 1.260860 0.743899 </Coordinates>
+	</Vertex>
+	<Vertex id = "35">
+		<Coordinates> 0.703764 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "36">
+		<Coordinates> 0.657817 1.250790 0.746233 </Coordinates>
+	</Vertex>
+	<Vertex id = "37">
+		<Coordinates> 0.590977 1.219370 0.748567 </Coordinates>
+	</Vertex>
+	<Vertex id = "38">
+		<Coordinates> 0.791495 1.250790 0.741565 </Coordinates>
+	</Vertex>
+	<Vertex id = "39">
+		<Coordinates> 0.858334 1.219370 0.739231 </Coordinates>
+	</Vertex>
+	<Vertex id = "40">
+		<Coordinates> 0.780677 1.213950 -0.437698 </Coordinates>
+	</Vertex>
+	<Vertex id = "41">
+		<Coordinates> 0.903462 1.156540 0.744436 </Coordinates>
+	</Vertex>
+	<Vertex id = "42">
+		<Coordinates> 0.819833 1.150290 -0.420637 </Coordinates>
+	</Vertex>
+	<Vertex id = "43">
+		<Coordinates> 0.914831 1.093710 0.750821 </Coordinates>
+	</Vertex>
+	<Vertex id = "44">
+		<Coordinates> 0.841048 1.094530 -0.410209 </Coordinates>
+	</Vertex>
+	<Vertex id = "45">
+		<Coordinates> -0.657817 1.250790 0.746233 </Coordinates>
+	</Vertex>
+	<Vertex id = "46">
+		<Coordinates> -0.590978 1.219370 0.748567 </Coordinates>
+	</Vertex>
+	<Vertex id = "47">
+		<Coordinates> -0.559452 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "48">
+		<Coordinates> -0.502999 1.144210 -0.355541 </Coordinates>
+	</Vertex>
+	<Vertex id = "49">
+		<Coordinates> -0.475609 1.041800 -0.353561 </Coordinates>
+	</Vertex>
+	<Vertex id = "50">
+		<Coordinates> -0.841049 1.094530 -0.410209 </Coordinates>
+	</Vertex>
+	<Vertex id = "51">
+		<Coordinates> -0.914832 1.093710 0.750821 </Coordinates>
+	</Vertex>
+	<Vertex id = "52">
+		<Coordinates> -0.819834 1.150290 -0.420637 </Coordinates>
+	</Vertex>
+	<Vertex id = "53">
+		<Coordinates> -0.903462 1.156540 0.744436 </Coordinates>
+	</Vertex>
+	<Vertex id = "54">
+		<Coordinates> -0.780678 1.213950 -0.437698 </Coordinates>
+	</Vertex>
+	<Vertex id = "55">
+		<Coordinates> -0.858335 1.219370 0.739231 </Coordinates>
+	</Vertex>
+	<Vertex id = "56">
+		<Coordinates> -0.791495 1.250790 0.741565 </Coordinates>
+	</Vertex>
+	<Vertex id = "57">
+		<Coordinates> -0.764718 1.213950 -0.267438 </Coordinates>
+	</Vertex>
+	<Vertex id = "58">
+		<Coordinates> -0.724656 1.260860 0.743899 </Coordinates>
+	</Vertex>
+	<Vertex id = "59">
+		<Coordinates> -0.737675 1.213950 -0.233697 </Coordinates>
+	</Vertex>
+	<Vertex id = "60">
+		<Coordinates> -0.703765 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "61">
+		<Coordinates> -0.637438 2.279560 -0.908623 </Coordinates>
+	</Vertex>
+	<Vertex id = "62">
+		<Coordinates> 0.559666 2.365720 -0.793327 </Coordinates>
+	</Vertex>
+	<Vertex id = "63">
+		<Coordinates> 0.637437 2.279560 -0.908623 </Coordinates>
+	</Vertex>
+	<Vertex id = "64">
+		<Coordinates> -0.651376 2.114580 -0.955863 </Coordinates>
+	</Vertex>
+	<Vertex id = "65">
+		<Coordinates> 0.651375 2.114580 -0.955863 </Coordinates>
+	</Vertex>
+	<Vertex id = "66">
+		<Coordinates> -0.647618 1.902530 -0.941149 </Coordinates>
+	</Vertex>
+	<Vertex id = "67">
+		<Coordinates> 0.647617 1.902530 -0.941149 </Coordinates>
+	</Vertex>
+	<Vertex id = "68">
+		<Coordinates> -0.633437 1.486290 -0.893377 </Coordinates>
+	</Vertex>
+	<Vertex id = "69">
+		<Coordinates> 0.633436 1.486290 -0.893377 </Coordinates>
+	</Vertex>
+	<Vertex id = "70">
+		<Coordinates> -0.680520 1.213950 -0.845925 </Coordinates>
+	</Vertex>
+	<Vertex id = "71">
+		<Coordinates> 0.680519 1.213950 -0.845925 </Coordinates>
+	</Vertex>
+	<Vertex id = "72">
+		<Coordinates> -0.717167 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "73">
+		<Coordinates> 0.717166 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "74">
+		<Coordinates> -0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "75">
+		<Coordinates> 0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "76">
+		<Coordinates> -0.559667 2.365720 -0.793327 </Coordinates>
+	</Vertex>
+	<Vertex id = "77">
+		<Coordinates> -0.590263 0.914751 0.536854 </Coordinates>
+	</Vertex>
+	<Vertex id = "78">
+		<Coordinates> -0.177081 0.937561 0.166873 </Coordinates>
+	</Vertex>
+	<Vertex id = "79">
+		<Coordinates> -0.539757 0.914332 0.093378 </Coordinates>
+	</Vertex>
+	<Vertex id = "80">
+		<Coordinates> 0.177080 0.937561 0.166873 </Coordinates>
+	</Vertex>
+	<Vertex id = "81">
+		<Coordinates> 0.590263 0.914751 0.536854 </Coordinates>
+	</Vertex>
+	<Vertex id = "82">
+		<Coordinates> 0.539756 0.914332 0.093378 </Coordinates>
+	</Vertex>
+	<Vertex id = "83">
+		<Coordinates> 0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "84">
+		<Coordinates> 0.216093 0.927691 0.609472 </Coordinates>
+	</Vertex>
+	<Vertex id = "85">
+		<Coordinates> 0.000000 0.923088 0.602821 </Coordinates>
+	</Vertex>
+	<Vertex id = "86">
+		<Coordinates> 0.000000 0.942213 0.170704 </Coordinates>
+	</Vertex>
+	<Vertex id = "87">
+		<Coordinates> -0.138074 0.903179 -0.291005 </Coordinates>
+	</Vertex>
+	<Vertex id = "88">
+		<Coordinates> -0.320138 0.906347 -0.328191 </Coordinates>
+	</Vertex>
+	<Vertex id = "89">
+		<Coordinates> -0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "90">
+		<Coordinates> 0.138073 0.903179 -0.291005 </Coordinates>
+	</Vertex>
+	<Vertex id = "91">
+		<Coordinates> 0.320138 0.906347 -0.328191 </Coordinates>
+	</Vertex>
+	<Vertex id = "92">
+		<Coordinates> 0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "93">
+		<Coordinates> 0.069037 0.903179 -0.282930 </Coordinates>
+	</Vertex>
+	<Vertex id = "94">
+		<Coordinates> 0.000000 0.903179 -0.274855 </Coordinates>
+	</Vertex>
+	<Vertex id = "95">
+		<Coordinates> -0.069037 0.903179 -0.282930 </Coordinates>
+	</Vertex>
+	<Vertex id = "96">
+		<Coordinates> -0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "97">
+		<Coordinates> -0.255106 0.894170 0.835678 </Coordinates>
+	</Vertex>
+	<Vertex id = "98">
+		<Coordinates> -0.216094 0.927691 0.609472 </Coordinates>
+	</Vertex>
+	<Vertex id = "99">
+		<Coordinates> 0.000000 0.882555 0.865038 </Coordinates>
+	</Vertex>
+	<Vertex id = "100">
+		<Coordinates> 0.255106 0.894170 0.835678 </Coordinates>
+	</Vertex>
+	<Vertex id = "101">
+		<Coordinates> -0.796434 0.389184 0.089059 </Coordinates>
+	</Vertex>
+	<Vertex id = "102">
+		<Coordinates> -0.864947 0.954457 0.074258 </Coordinates>
+	</Vertex>
+	<Vertex id = "103">
+		<Coordinates> -0.782278 0.360820 -0.316316 </Coordinates>
+	</Vertex>
+	<Vertex id = "104">
+		<Coordinates> -0.842982 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "105">
+		<Coordinates> -0.768966 0.351413 -0.448232 </Coordinates>
+	</Vertex>
+	<Vertex id = "106">
+		<Coordinates> -0.807502 0.937464 -0.479030 </Coordinates>
+	</Vertex>
+	<Vertex id = "107">
+		<Coordinates> -0.768966 0.340653 -0.602108 </Coordinates>
+	</Vertex>
+	<Vertex id = "108">
+		<Coordinates> -0.770445 0.928903 -0.639261 </Coordinates>
+	</Vertex>
+	<Vertex id = "109">
+		<Coordinates> -0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "110">
+		<Coordinates> -0.717167 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "111">
+		<Coordinates> -0.591924 0.968058 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "112">
+		<Coordinates> -0.619731 0.926718 0.820860 </Coordinates>
+	</Vertex>
+	<Vertex id = "113">
+		<Coordinates> -0.629657 0.435278 0.754459 </Coordinates>
+	</Vertex>
+	<Vertex id = "114">
+		<Coordinates> -0.634852 0.900783 0.866504 </Coordinates>
+	</Vertex>
+	<Vertex id = "115">
+		<Coordinates> -0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "116">
+		<Coordinates> -0.635489 0.443114 0.921474 </Coordinates>
+	</Vertex>
+	<Vertex id = "117">
+		<Coordinates> 0.796434 0.389184 0.089059 </Coordinates>
+	</Vertex>
+	<Vertex id = "118">
+		<Coordinates> 0.782278 0.360820 -0.316316 </Coordinates>
+	</Vertex>
+	<Vertex id = "119">
+		<Coordinates> 0.864947 0.954457 0.074257 </Coordinates>
+	</Vertex>
+	<Vertex id = "120">
+		<Coordinates> 0.842981 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "121">
+		<Coordinates> 0.768966 0.351413 -0.448232 </Coordinates>
+	</Vertex>
+	<Vertex id = "122">
+		<Coordinates> 0.807502 0.937464 -0.479031 </Coordinates>
+	</Vertex>
+	<Vertex id = "123">
+		<Coordinates> 0.768966 0.340653 -0.602108 </Coordinates>
+	</Vertex>
+	<Vertex id = "124">
+		<Coordinates> 0.770444 0.928903 -0.639261 </Coordinates>
+	</Vertex>
+	<Vertex id = "125">
+		<Coordinates> 0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "126">
+		<Coordinates> 0.717166 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "127">
+		<Coordinates> 0.635489 0.443114 0.921474 </Coordinates>
+	</Vertex>
+	<Vertex id = "128">
+		<Coordinates> 0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "129">
+		<Coordinates> 0.629657 0.435278 0.754459 </Coordinates>
+	</Vertex>
+	<Vertex id = "130">
+		<Coordinates> 0.634852 0.900783 0.866504 </Coordinates>
+	</Vertex>
+	<Vertex id = "131">
+		<Coordinates> 0.619730 0.926718 0.820860 </Coordinates>
+	</Vertex>
+	<Vertex id = "132">
+		<Coordinates> 0.591924 0.968059 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "133">
+		<Coordinates> -0.729702 1.067000 0.944123 </Coordinates>
+	</Vertex>
+	<Vertex id = "134">
+		<Coordinates> -0.691461 1.184610 0.893006 </Coordinates>
+	</Vertex>
+	<Vertex id = "135">
+		<Coordinates> -0.730296 1.092500 0.955838 </Coordinates>
+	</Vertex>
+	<Vertex id = "136">
+		<Coordinates> -0.770815 1.184480 0.890549 </Coordinates>
+	</Vertex>
+	<Vertex id = "137">
+		<Coordinates> -0.795540 1.036680 0.891319 </Coordinates>
+	</Vertex>
+	<Vertex id = "138">
+		<Coordinates> -0.730447 1.040090 0.939757 </Coordinates>
+	</Vertex>
+	<Vertex id = "139">
+		<Coordinates> -0.761601 1.034110 0.941151 </Coordinates>
+	</Vertex>
+	<Vertex id = "140">
+		<Coordinates> 0.730295 1.092500 0.955838 </Coordinates>
+	</Vertex>
+	<Vertex id = "141">
+		<Coordinates> 0.691461 1.184610 0.893006 </Coordinates>
+	</Vertex>
+	<Vertex id = "142">
+		<Coordinates> 0.729702 1.067000 0.944123 </Coordinates>
+	</Vertex>
+	<Vertex id = "143">
+		<Coordinates> 0.770815 1.184480 0.890549 </Coordinates>
+	</Vertex>
+	<Vertex id = "144">
+		<Coordinates> 0.761600 1.034110 0.941151 </Coordinates>
+	</Vertex>
+	<Vertex id = "145">
+		<Coordinates> 0.730447 1.040090 0.939757 </Coordinates>
+	</Vertex>
+	<Vertex id = "146">
+		<Coordinates> 0.795540 1.036680 0.891319 </Coordinates>
+	</Vertex>
+	<Vertex id = "147">
+		<Coordinates> -0.559452 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "148">
+		<Coordinates> -0.771604 1.213950 -0.435074 </Coordinates>
+	</Vertex>
+	<Vertex id = "149">
+		<Coordinates> -0.703765 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "150">
+		<Coordinates> -0.749711 1.213950 -0.265475 </Coordinates>
+	</Vertex>
+	<Vertex id = "151">
+		<Coordinates> -0.854607 1.052100 0.797612 </Coordinates>
+	</Vertex>
+	<Vertex id = "152">
+		<Coordinates> -0.827992 0.998810 0.803508 </Coordinates>
+	</Vertex>
+	<Vertex id = "153">
+		<Coordinates> -0.824202 1.002000 0.834755 </Coordinates>
+	</Vertex>
+	<Vertex id = "154">
+		<Coordinates> -0.731186 1.000280 0.838637 </Coordinates>
+	</Vertex>
+	<Vertex id = "155">
+		<Coordinates> -0.810477 1.019570 0.863037 </Coordinates>
+	</Vertex>
+	<Vertex id = "156">
+		<Coordinates> -0.730825 1.014300 0.929714 </Coordinates>
+	</Vertex>
+	<Vertex id = "157">
+		<Coordinates> -0.703132 1.035400 0.942211 </Coordinates>
+	</Vertex>
+	<Vertex id = "158">
+		<Coordinates> -0.690726 1.067410 0.939309 </Coordinates>
+	</Vertex>
+	<Vertex id = "159">
+		<Coordinates> -0.646600 1.109030 0.900373 </Coordinates>
+	</Vertex>
+	<Vertex id = "160">
+		<Coordinates> -0.681634 1.066640 0.905236 </Coordinates>
+	</Vertex>
+	<Vertex id = "161">
+		<Coordinates> -0.652964 1.080800 0.903470 </Coordinates>
+	</Vertex>
+	<Vertex id = "162">
+		<Coordinates> -0.616277 1.049640 0.838631 </Coordinates>
+	</Vertex>
+	<Vertex id = "163">
+		<Coordinates> -0.597953 1.092130 0.833981 </Coordinates>
+	</Vertex>
+	<Vertex id = "164">
+		<Coordinates> -0.643962 1.137840 0.896933 </Coordinates>
+	</Vertex>
+	<Vertex id = "165">
+		<Coordinates> -0.573008 1.154600 0.828786 </Coordinates>
+	</Vertex>
+	<Vertex id = "166">
+		<Coordinates> -0.640747 1.159220 0.893255 </Coordinates>
+	</Vertex>
+	<Vertex id = "167">
+		<Coordinates> -0.616936 1.189800 0.822827 </Coordinates>
+	</Vertex>
+	<Vertex id = "168">
+		<Coordinates> -0.669029 1.233080 0.821131 </Coordinates>
+	</Vertex>
+	<Vertex id = "169">
+		<Coordinates> -0.731117 1.167040 0.904011 </Coordinates>
+	</Vertex>
+	<Vertex id = "170">
+		<Coordinates> -0.728140 1.230340 0.819434 </Coordinates>
+	</Vertex>
+	<Vertex id = "171">
+		<Coordinates> -0.787233 1.233450 0.817738 </Coordinates>
+	</Vertex>
+	<Vertex id = "172">
+		<Coordinates> -0.822374 1.158320 0.888672 </Coordinates>
+	</Vertex>
+	<Vertex id = "173">
+		<Coordinates> -0.839592 1.190480 0.816041 </Coordinates>
+	</Vertex>
+	<Vertex id = "174">
+		<Coordinates> -0.821495 1.135850 0.891128 </Coordinates>
+	</Vertex>
+	<Vertex id = "175">
+		<Coordinates> -0.887282 1.154600 0.819825 </Coordinates>
+	</Vertex>
+	<Vertex id = "176">
+		<Coordinates> -0.808864 1.108550 0.894223 </Coordinates>
+	</Vertex>
+	<Vertex id = "177">
+		<Coordinates> -0.862943 1.091970 0.824465 </Coordinates>
+	</Vertex>
+	<Vertex id = "178">
+		<Coordinates> -0.811175 1.069160 0.898611 </Coordinates>
+	</Vertex>
+	<Vertex id = "179">
+		<Coordinates> -0.846777 1.048960 0.829584 </Coordinates>
+	</Vertex>
+	<Vertex id = "180">
+		<Coordinates> -0.776662 1.065540 0.899601 </Coordinates>
+	</Vertex>
+	<Vertex id = "181">
+		<Coordinates> 0.749710 1.213950 -0.265475 </Coordinates>
+	</Vertex>
+	<Vertex id = "182">
+		<Coordinates> 0.771603 1.213950 -0.435074 </Coordinates>
+	</Vertex>
+	<Vertex id = "183">
+		<Coordinates> 0.703764 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "184">
+		<Coordinates> 0.559451 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "185">
+		<Coordinates> 0.819438 0.435278 0.747832 </Coordinates>
+	</Vertex>
+	<Vertex id = "186">
+		<Coordinates> 0.825271 0.443114 0.914846 </Coordinates>
+	</Vertex>
+	<Vertex id = "187">
+		<Coordinates> 0.778427 0.377917 0.791616 </Coordinates>
+	</Vertex>
+	<Vertex id = "188">
+		<Coordinates> 0.781640 0.384393 0.883635 </Coordinates>
+	</Vertex>
+	<Vertex id = "189">
+		<Coordinates> 0.629657 0.435278 0.754459 </Coordinates>
+	</Vertex>
+	<Vertex id = "190">
+		<Coordinates> 0.673864 0.377917 0.795267 </Coordinates>
+	</Vertex>
+	<Vertex id = "191">
+		<Coordinates> 0.635489 0.443114 0.921474 </Coordinates>
+	</Vertex>
+	<Vertex id = "192">
+		<Coordinates> 0.677077 0.384393 0.887287 </Coordinates>
+	</Vertex>
+	<Vertex id = "193">
+		<Coordinates> 0.776662 1.065540 0.899601 </Coordinates>
+	</Vertex>
+	<Vertex id = "194">
+		<Coordinates> 0.846777 1.048960 0.829584 </Coordinates>
+	</Vertex>
+	<Vertex id = "195">
+		<Coordinates> 0.811175 1.069160 0.898611 </Coordinates>
+	</Vertex>
+	<Vertex id = "196">
+		<Coordinates> 0.862942 1.091970 0.824465 </Coordinates>
+	</Vertex>
+	<Vertex id = "197">
+		<Coordinates> 0.808864 1.108550 0.894223 </Coordinates>
+	</Vertex>
+	<Vertex id = "198">
+		<Coordinates> 0.887282 1.154600 0.819825 </Coordinates>
+	</Vertex>
+	<Vertex id = "199">
+		<Coordinates> 0.821494 1.135850 0.891128 </Coordinates>
+	</Vertex>
+	<Vertex id = "200">
+		<Coordinates> 0.839591 1.190480 0.816041 </Coordinates>
+	</Vertex>
+	<Vertex id = "201">
+		<Coordinates> 0.822374 1.158320 0.888672 </Coordinates>
+	</Vertex>
+	<Vertex id = "202">
+		<Coordinates> 0.787233 1.233450 0.817738 </Coordinates>
+	</Vertex>
+	<Vertex id = "203">
+		<Coordinates> 0.728140 1.230340 0.819434 </Coordinates>
+	</Vertex>
+	<Vertex id = "204">
+		<Coordinates> 0.731116 1.167040 0.904011 </Coordinates>
+	</Vertex>
+	<Vertex id = "205">
+		<Coordinates> 0.669029 1.233090 0.821131 </Coordinates>
+	</Vertex>
+	<Vertex id = "206">
+		<Coordinates> 0.616936 1.189800 0.822827 </Coordinates>
+	</Vertex>
+	<Vertex id = "207">
+		<Coordinates> 0.640747 1.159220 0.893255 </Coordinates>
+	</Vertex>
+	<Vertex id = "208">
+		<Coordinates> 0.573008 1.154600 0.828785 </Coordinates>
+	</Vertex>
+	<Vertex id = "209">
+		<Coordinates> 0.643962 1.137840 0.896933 </Coordinates>
+	</Vertex>
+	<Vertex id = "210">
+		<Coordinates> 0.597953 1.092130 0.833981 </Coordinates>
+	</Vertex>
+	<Vertex id = "211">
+		<Coordinates> 0.646600 1.109030 0.900373 </Coordinates>
+	</Vertex>
+	<Vertex id = "212">
+		<Coordinates> 0.616277 1.049640 0.838631 </Coordinates>
+	</Vertex>
+	<Vertex id = "213">
+		<Coordinates> 0.652964 1.080800 0.903470 </Coordinates>
+	</Vertex>
+	<Vertex id = "214">
+		<Coordinates> 0.681634 1.066640 0.905236 </Coordinates>
+	</Vertex>
+	<Vertex id = "215">
+		<Coordinates> 0.690725 1.067410 0.939309 </Coordinates>
+	</Vertex>
+	<Vertex id = "216">
+		<Coordinates> 0.703132 1.035400 0.942211 </Coordinates>
+	</Vertex>
+	<Vertex id = "217">
+		<Coordinates> 0.730824 1.014300 0.929714 </Coordinates>
+	</Vertex>
+	<Vertex id = "218">
+		<Coordinates> 0.810477 1.019570 0.863037 </Coordinates>
+	</Vertex>
+	<Vertex id = "219">
+		<Coordinates> 0.731185 1.000280 0.838637 </Coordinates>
+	</Vertex>
+	<Vertex id = "220">
+		<Coordinates> 0.824202 1.002000 0.834755 </Coordinates>
+	</Vertex>
+	<Vertex id = "221">
+		<Coordinates> 0.827992 0.998810 0.803508 </Coordinates>
+	</Vertex>
+	<Vertex id = "222">
+		<Coordinates> 0.854606 1.052100 0.797612 </Coordinates>
+	</Vertex>
+	<Vertex id = "223">
+		<Coordinates> -0.643354 1.008870 0.842518 </Coordinates>
+	</Vertex>
+	<Vertex id = "224">
+		<Coordinates> -0.650223 1.005080 0.791505 </Coordinates>
+	</Vertex>
+	<Vertex id = "225">
+		<Coordinates> -0.615909 1.044370 0.787617 </Coordinates>
+	</Vertex>
+	<Vertex id = "226">
+		<Coordinates> -0.573785 1.104150 0.802625 </Coordinates>
+	</Vertex>
+	<Vertex id = "227">
+		<Coordinates> -0.582480 1.156210 0.796702 </Coordinates>
+	</Vertex>
+	<Vertex id = "228">
+		<Coordinates> -0.616087 1.208270 0.789910 </Coordinates>
+	</Vertex>
+	<Vertex id = "229">
+		<Coordinates> -0.671468 1.234310 0.787976 </Coordinates>
+	</Vertex>
+	<Vertex id = "230">
+		<Coordinates> -0.726849 1.242650 0.786042 </Coordinates>
+	</Vertex>
+	<Vertex id = "231">
+		<Coordinates> -0.782230 1.234310 0.784108 </Coordinates>
+	</Vertex>
+	<Vertex id = "232">
+		<Coordinates> -0.837611 1.208270 0.782174 </Coordinates>
+	</Vertex>
+	<Vertex id = "233">
+		<Coordinates> -0.875002 1.156210 0.786487 </Coordinates>
+	</Vertex>
+	<Vertex id = "234">
+		<Coordinates> -0.875666 1.104150 0.791777 </Coordinates>
+	</Vertex>
+	<Vertex id = "235">
+		<Coordinates> -0.768153 1.066830 0.936491 </Coordinates>
+	</Vertex>
+	<Vertex id = "236">
+		<Coordinates> 0.875666 1.104150 0.791777 </Coordinates>
+	</Vertex>
+	<Vertex id = "237">
+		<Coordinates> 0.875002 1.156210 0.786487 </Coordinates>
+	</Vertex>
+	<Vertex id = "238">
+		<Coordinates> 0.837610 1.208270 0.782174 </Coordinates>
+	</Vertex>
+	<Vertex id = "239">
+		<Coordinates> 0.782229 1.234310 0.784108 </Coordinates>
+	</Vertex>
+	<Vertex id = "240">
+		<Coordinates> 0.726848 1.242650 0.786042 </Coordinates>
+	</Vertex>
+	<Vertex id = "241">
+		<Coordinates> 0.671467 1.234310 0.787976 </Coordinates>
+	</Vertex>
+	<Vertex id = "242">
+		<Coordinates> 0.616086 1.208270 0.789910 </Coordinates>
+	</Vertex>
+	<Vertex id = "243">
+		<Coordinates> 0.582480 1.156210 0.796702 </Coordinates>
+	</Vertex>
+	<Vertex id = "244">
+		<Coordinates> 0.573784 1.104150 0.802624 </Coordinates>
+	</Vertex>
+	<Vertex id = "245">
+		<Coordinates> 0.615908 1.044370 0.787617 </Coordinates>
+	</Vertex>
+	<Vertex id = "246">
+		<Coordinates> 0.650223 1.005080 0.791504 </Coordinates>
+	</Vertex>
+	<Vertex id = "247">
+		<Coordinates> 0.643354 1.008870 0.842518 </Coordinates>
+	</Vertex>
+	<Vertex id = "248">
+		<Coordinates> 0.768153 1.066830 0.936491 </Coordinates>
+	</Vertex>
+	<Vertex id = "249">
+		<Coordinates> -0.657577 1.024550 0.867978 </Coordinates>
+	</Vertex>
+	<Vertex id = "250">
+		<Coordinates> -0.672860 1.039750 0.893438 </Coordinates>
+	</Vertex>
+	<Vertex id = "251">
+		<Coordinates> 0.657576 1.024550 0.867978 </Coordinates>
+	</Vertex>
+	<Vertex id = "252">
+		<Coordinates> 0.672859 1.039750 0.893438 </Coordinates>
+	</Vertex>
+	<Vertex id = "253">
+		<Coordinates> 0.652566 0.000474 -0.767089 </Coordinates>
+	</Vertex>
+	<Vertex id = "254">
+		<Coordinates> 0.768715 0.153731 -0.747842 </Coordinates>
+	</Vertex>
+	<Vertex id = "255">
+		<Coordinates> 0.764231 0.001101 -0.759343 </Coordinates>
+	</Vertex>
+	<Vertex id = "256">
+		<Coordinates> 0.623771 0.153104 -0.755588 </Coordinates>
+	</Vertex>
+	<Vertex id = "257">
+		<Coordinates> -0.652566 0.000473 -0.767089 </Coordinates>
+	</Vertex>
+	<Vertex id = "258">
+		<Coordinates> -0.623771 0.153104 -0.755588 </Coordinates>
+	</Vertex>
+	<Vertex id = "259">
+		<Coordinates> -0.656139 0.001416 -0.676598 </Coordinates>
+	</Vertex>
+	<Vertex id = "260">
+		<Coordinates> -0.627344 0.161445 -0.644263 </Coordinates>
+	</Vertex>
+	<Vertex id = "261">
+		<Coordinates> -0.579069 0.329159 -0.766474 </Coordinates>
+	</Vertex>
+	<Vertex id = "262">
+		<Coordinates> -0.584234 0.341072 -0.605546 </Coordinates>
+	</Vertex>
+	<Vertex id = "263">
+		<Coordinates> -0.764231 0.001021 -0.674046 </Coordinates>
+	</Vertex>
+	<Vertex id = "264">
+		<Coordinates> -0.768715 0.161051 -0.641711 </Coordinates>
+	</Vertex>
+	<Vertex id = "265">
+		<Coordinates> -0.768966 0.340653 -0.602108 </Coordinates>
+	</Vertex>
+	<Vertex id = "266">
+		<Coordinates> -0.770972 0.231180 0.879922 </Coordinates>
+	</Vertex>
+	<Vertex id = "267">
+		<Coordinates> -0.793036 0.299729 0.896592 </Coordinates>
+	</Vertex>
+	<Vertex id = "268">
+		<Coordinates> -0.789144 0.295351 0.785121 </Coordinates>
+	</Vertex>
+	<Vertex id = "269">
+		<Coordinates> -0.781640 0.384393 0.883635 </Coordinates>
+	</Vertex>
+	<Vertex id = "270">
+		<Coordinates> -0.778427 0.377916 0.791616 </Coordinates>
+	</Vertex>
+	<Vertex id = "271">
+		<Coordinates> -0.825271 0.443114 0.914846 </Coordinates>
+	</Vertex>
+	<Vertex id = "272">
+		<Coordinates> -0.819438 0.435278 0.747832 </Coordinates>
+	</Vertex>
+	<Vertex id = "273">
+		<Coordinates> -0.673864 0.377916 0.795267 </Coordinates>
+	</Vertex>
+	<Vertex id = "274">
+		<Coordinates> -0.629657 0.435278 0.754459 </Coordinates>
+	</Vertex>
+	<Vertex id = "275">
+		<Coordinates> -0.752536 0.000353 0.823187 </Coordinates>
+	</Vertex>
+	<Vertex id = "276">
+		<Coordinates> -0.768400 0.225344 0.806267 </Coordinates>
+	</Vertex>
+	<Vertex id = "277">
+		<Coordinates> -0.701704 0.000353 0.824963 </Coordinates>
+	</Vertex>
+	<Vertex id = "278">
+		<Coordinates> -0.684750 0.225575 0.809186 </Coordinates>
+	</Vertex>
+	<Vertex id = "279">
+		<Coordinates> -0.662623 0.295524 0.789538 </Coordinates>
+	</Vertex>
+	<Vertex id = "280">
+		<Coordinates> -0.677077 0.384393 0.887287 </Coordinates>
+	</Vertex>
+	<Vertex id = "281">
+		<Coordinates> -0.635489 0.443114 0.921474 </Coordinates>
+	</Vertex>
+	<Vertex id = "282">
+		<Coordinates> -0.823381 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "283">
+		<Coordinates> -0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "284">
+		<Coordinates> -0.754098 0.000000 0.867921 </Coordinates>
+	</Vertex>
+	<Vertex id = "285">
+		<Coordinates> -0.703266 0.000000 0.869697 </Coordinates>
+	</Vertex>
+	<Vertex id = "286">
+		<Coordinates> -0.687321 0.231411 0.882841 </Coordinates>
+	</Vertex>
+	<Vertex id = "287">
+		<Coordinates> -0.666514 0.299903 0.901008 </Coordinates>
+	</Vertex>
+	<Vertex id = "288">
+		<Coordinates> 0.627344 0.161445 -0.644263 </Coordinates>
+	</Vertex>
+	<Vertex id = "289">
+		<Coordinates> 0.584234 0.341072 -0.605547 </Coordinates>
+	</Vertex>
+	<Vertex id = "290">
+		<Coordinates> 0.579068 0.329160 -0.766474 </Coordinates>
+	</Vertex>
+	<Vertex id = "291">
+		<Coordinates> 0.656139 0.001416 -0.676598 </Coordinates>
+	</Vertex>
+	<Vertex id = "292">
+		<Coordinates> 0.764231 0.001022 -0.674047 </Coordinates>
+	</Vertex>
+	<Vertex id = "293">
+		<Coordinates> 0.768715 0.161051 -0.641712 </Coordinates>
+	</Vertex>
+	<Vertex id = "294">
+		<Coordinates> 0.768966 0.340653 -0.602108 </Coordinates>
+	</Vertex>
+	<Vertex id = "295">
+		<Coordinates> 0.778427 0.377917 0.791616 </Coordinates>
+	</Vertex>
+	<Vertex id = "296">
+		<Coordinates> 0.781640 0.384393 0.883635 </Coordinates>
+	</Vertex>
+	<Vertex id = "297">
+		<Coordinates> 0.789144 0.295351 0.785121 </Coordinates>
+	</Vertex>
+	<Vertex id = "298">
+		<Coordinates> 0.793036 0.299729 0.896592 </Coordinates>
+	</Vertex>
+	<Vertex id = "299">
+		<Coordinates> 0.770972 0.231180 0.879922 </Coordinates>
+	</Vertex>
+	<Vertex id = "300">
+		<Coordinates> 0.684750 0.225575 0.809186 </Coordinates>
+	</Vertex>
+	<Vertex id = "301">
+		<Coordinates> 0.662623 0.295524 0.789538 </Coordinates>
+	</Vertex>
+	<Vertex id = "302">
+		<Coordinates> 0.673864 0.377917 0.795267 </Coordinates>
+	</Vertex>
+	<Vertex id = "303">
+		<Coordinates> 0.687322 0.231412 0.882841 </Coordinates>
+	</Vertex>
+	<Vertex id = "304">
+		<Coordinates> 0.666514 0.299903 0.901008 </Coordinates>
+	</Vertex>
+	<Vertex id = "305">
+		<Coordinates> 0.677077 0.384393 0.887287 </Coordinates>
+	</Vertex>
+	<Vertex id = "306">
+		<Coordinates> 0.825271 0.443114 0.914846 </Coordinates>
+	</Vertex>
+	<Vertex id = "307">
+		<Coordinates> 0.635489 0.443114 0.921474 </Coordinates>
+	</Vertex>
+	<Vertex id = "308">
+		<Coordinates> 0.703266 0.000000 0.869697 </Coordinates>
+	</Vertex>
+	<Vertex id = "309">
+		<Coordinates> 0.754098 0.000000 0.867921 </Coordinates>
+	</Vertex>
+	<Vertex id = "310">
+		<Coordinates> 0.768400 0.225344 0.806267 </Coordinates>
+	</Vertex>
+	<Vertex id = "311">
+		<Coordinates> 0.752536 0.000354 0.823187 </Coordinates>
+	</Vertex>
+	<Vertex id = "312">
+		<Coordinates> 0.701704 0.000354 0.824963 </Coordinates>
+	</Vertex>
+	<Vertex id = "313">
+		<Coordinates> 0.823380 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "314">
+		<Coordinates> 0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "315">
+		<Coordinates> 0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "316">
+		<Coordinates> -0.768715 0.153731 -0.747842 </Coordinates>
+	</Vertex>
+	<Vertex id = "317">
+		<Coordinates> -0.768966 0.329893 -0.755984 </Coordinates>
+	</Vertex>
+	<Vertex id = "318">
+		<Coordinates> -0.764231 0.001100 -0.759343 </Coordinates>
+	</Vertex>
+	<Vertex id = "319">
+		<Coordinates> 0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "320">
+		<Coordinates> 0.255106 0.894170 0.835678 </Coordinates>
+	</Vertex>
+	<Vertex id = "321">
+		<Coordinates> 0.627171 0.835640 0.802472 </Coordinates>
+	</Vertex>
+	<Vertex id = "322">
+		<Coordinates> 0.256663 0.831683 0.880270 </Coordinates>
+	</Vertex>
+	<Vertex id = "323">
+		<Coordinates> 0.257020 0.760046 0.890486 </Coordinates>
+	</Vertex>
+	<Vertex id = "324">
+		<Coordinates> 0.000000 0.826192 0.909657 </Coordinates>
+	</Vertex>
+	<Vertex id = "325">
+		<Coordinates> 0.000000 0.757300 0.919879 </Coordinates>
+	</Vertex>
+	<Vertex id = "326">
+		<Coordinates> -0.257020 0.760046 0.890486 </Coordinates>
+	</Vertex>
+	<Vertex id = "327">
+		<Coordinates> -0.256177 0.688419 0.866324 </Coordinates>
+	</Vertex>
+	<Vertex id = "328">
+		<Coordinates> -0.628554 0.759687 0.816452 </Coordinates>
+	</Vertex>
+	<Vertex id = "329">
+		<Coordinates> -0.629223 0.683734 0.811062 </Coordinates>
+	</Vertex>
+	<Vertex id = "330">
+		<Coordinates> -0.823381 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "331">
+		<Coordinates> -0.832835 0.896360 0.859519 </Coordinates>
+	</Vertex>
+	<Vertex id = "332">
+		<Coordinates> -0.825271 0.443114 0.914846 </Coordinates>
+	</Vertex>
+	<Vertex id = "333">
+		<Coordinates> -0.852633 0.927358 0.812534 </Coordinates>
+	</Vertex>
+	<Vertex id = "334">
+		<Coordinates> -0.897773 0.968058 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "335">
+		<Coordinates> -0.596392 0.905817 0.773252 </Coordinates>
+	</Vertex>
+	<Vertex id = "336">
+		<Coordinates> -0.627171 0.835640 0.802472 </Coordinates>
+	</Vertex>
+	<Vertex id = "337">
+		<Coordinates> -0.255106 0.894170 0.835678 </Coordinates>
+	</Vertex>
+	<Vertex id = "338">
+		<Coordinates> -0.256664 0.831683 0.880270 </Coordinates>
+	</Vertex>
+	<Vertex id = "339">
+		<Coordinates> 0.000000 0.882555 0.865038 </Coordinates>
+	</Vertex>
+	<Vertex id = "340">
+		<Coordinates> -0.629871 0.437777 0.816336 </Coordinates>
+	</Vertex>
+	<Vertex id = "341">
+		<Coordinates> -0.259581 0.442462 0.868476 </Coordinates>
+	</Vertex>
+	<Vertex id = "342">
+		<Coordinates> 0.000000 0.688419 0.895703 </Coordinates>
+	</Vertex>
+	<Vertex id = "343">
+		<Coordinates> 0.000000 0.442462 0.897973 </Coordinates>
+	</Vertex>
+	<Vertex id = "344">
+		<Coordinates> 0.259581 0.442462 0.868476 </Coordinates>
+	</Vertex>
+	<Vertex id = "345">
+		<Coordinates> 0.628554 0.759687 0.816452 </Coordinates>
+	</Vertex>
+	<Vertex id = "346">
+		<Coordinates> 0.256176 0.688419 0.866324 </Coordinates>
+	</Vertex>
+	<Vertex id = "347">
+		<Coordinates> 0.629223 0.683734 0.811062 </Coordinates>
+	</Vertex>
+	<Vertex id = "348">
+		<Coordinates> 0.897772 0.968059 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "349">
+		<Coordinates> 0.852633 0.927358 0.812534 </Coordinates>
+	</Vertex>
+	<Vertex id = "350">
+		<Coordinates> 0.825271 0.443114 0.914846 </Coordinates>
+	</Vertex>
+	<Vertex id = "351">
+		<Coordinates> 0.832835 0.896360 0.859519 </Coordinates>
+	</Vertex>
+	<Vertex id = "352">
+		<Coordinates> 0.823380 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "353">
+		<Coordinates> 0.629871 0.437777 0.816335 </Coordinates>
+	</Vertex>
+	<Vertex id = "354">
+		<Coordinates> -0.819438 0.435278 0.747832 </Coordinates>
+	</Vertex>
+	<Vertex id = "355">
+		<Coordinates> -0.864947 0.954457 0.074258 </Coordinates>
+	</Vertex>
+	<Vertex id = "356">
+		<Coordinates> -0.796434 0.389184 0.089059 </Coordinates>
+	</Vertex>
+	<Vertex id = "357">
+		<Coordinates> 0.796434 0.389184 0.089059 </Coordinates>
+	</Vertex>
+	<Vertex id = "358">
+		<Coordinates> 0.864947 0.954457 0.074257 </Coordinates>
+	</Vertex>
+	<Vertex id = "359">
+		<Coordinates> 0.819438 0.435278 0.747832 </Coordinates>
+	</Vertex>
+	<Vertex id = "360">
+		<Coordinates> 0.602212 2.168200 -0.464319 </Coordinates>
+	</Vertex>
+	<Vertex id = "361">
+		<Coordinates> 0.606989 2.256750 -0.512563 </Coordinates>
+	</Vertex>
+	<Vertex id = "362">
+		<Coordinates> 0.388670 1.931080 -0.399806 </Coordinates>
+	</Vertex>
+	<Vertex id = "363">
+		<Coordinates> 0.398223 2.280210 -0.452346 </Coordinates>
+	</Vertex>
+	<Vertex id = "364">
+		<Coordinates> 0.189458 1.959630 -0.367428 </Coordinates>
+	</Vertex>
+	<Vertex id = "365">
+		<Coordinates> 0.189458 2.303670 -0.466895 </Coordinates>
+	</Vertex>
+	<Vertex id = "366">
+		<Coordinates> 0.094729 1.963900 -0.367428 </Coordinates>
+	</Vertex>
+	<Vertex id = "367">
+		<Coordinates> 0.094729 2.315920 -0.466895 </Coordinates>
+	</Vertex>
+	<Vertex id = "368">
+		<Coordinates> 0.000000 1.968170 -0.367428 </Coordinates>
+	</Vertex>
+	<Vertex id = "369">
+		<Coordinates> -0.000001 2.328170 -0.466895 </Coordinates>
+	</Vertex>
+	<Vertex id = "370">
+		<Coordinates> -0.094730 2.315920 -0.466895 </Coordinates>
+	</Vertex>
+	<Vertex id = "371">
+		<Coordinates> -0.094730 2.474750 -0.643916 </Coordinates>
+	</Vertex>
+	<Vertex id = "372">
+		<Coordinates> -0.189459 2.459480 -0.643916 </Coordinates>
+	</Vertex>
+	<Vertex id = "373">
+		<Coordinates> -0.189459 2.455950 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "374">
+		<Coordinates> -0.362504 2.415500 -0.811710 </Coordinates>
+	</Vertex>
+	<Vertex id = "375">
+		<Coordinates> 0.598081 2.368150 -0.637427 </Coordinates>
+	</Vertex>
+	<Vertex id = "376">
+		<Coordinates> 0.393770 2.413810 -0.640671 </Coordinates>
+	</Vertex>
+	<Vertex id = "377">
+		<Coordinates> 0.189458 2.459480 -0.643916 </Coordinates>
+	</Vertex>
+	<Vertex id = "378">
+		<Coordinates> 0.094729 2.477760 -0.643916 </Coordinates>
+	</Vertex>
+	<Vertex id = "379">
+		<Coordinates> -0.000001 2.485270 -0.643916 </Coordinates>
+	</Vertex>
+	<Vertex id = "380">
+		<Coordinates> -0.000001 2.481730 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "381">
+		<Coordinates> -0.094730 2.471210 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "382">
+		<Coordinates> -0.320138 0.906347 -0.328191 </Coordinates>
+	</Vertex>
+	<Vertex id = "383">
+		<Coordinates> -0.138074 0.903179 -0.291005 </Coordinates>
+	</Vertex>
+	<Vertex id = "384">
+		<Coordinates> -0.189459 1.213950 -0.337035 </Coordinates>
+	</Vertex>
+	<Vertex id = "385">
+		<Coordinates> -0.094730 1.213950 -0.337035 </Coordinates>
+	</Vertex>
+	<Vertex id = "386">
+		<Coordinates> -0.189459 1.626260 -0.352092 </Coordinates>
+	</Vertex>
+	<Vertex id = "387">
+		<Coordinates> -0.094730 1.626260 -0.352092 </Coordinates>
+	</Vertex>
+	<Vertex id = "388">
+		<Coordinates> -0.189459 1.959630 -0.367428 </Coordinates>
+	</Vertex>
+	<Vertex id = "389">
+		<Coordinates> -0.094730 1.963900 -0.367428 </Coordinates>
+	</Vertex>
+	<Vertex id = "390">
+		<Coordinates> -0.189459 2.303670 -0.466894 </Coordinates>
+	</Vertex>
+	<Vertex id = "391">
+		<Coordinates> -0.069037 0.903179 -0.282930 </Coordinates>
+	</Vertex>
+	<Vertex id = "392">
+		<Coordinates> 0.000000 0.903179 -0.274855 </Coordinates>
+	</Vertex>
+	<Vertex id = "393">
+		<Coordinates> 0.000000 1.213950 -0.337035 </Coordinates>
+	</Vertex>
+	<Vertex id = "394">
+		<Coordinates> 0.069037 0.903179 -0.282930 </Coordinates>
+	</Vertex>
+	<Vertex id = "395">
+		<Coordinates> 0.094729 1.213950 -0.337035 </Coordinates>
+	</Vertex>
+	<Vertex id = "396">
+		<Coordinates> 0.138073 0.903179 -0.291005 </Coordinates>
+	</Vertex>
+	<Vertex id = "397">
+		<Coordinates> 0.189458 1.213950 -0.337035 </Coordinates>
+	</Vertex>
+	<Vertex id = "398">
+		<Coordinates> 0.320138 0.906347 -0.328191 </Coordinates>
+	</Vertex>
+	<Vertex id = "399">
+		<Coordinates> 0.374455 1.213950 -0.348105 </Coordinates>
+	</Vertex>
+	<Vertex id = "400">
+		<Coordinates> 0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "401">
+		<Coordinates> 0.485094 0.970107 -0.353275 </Coordinates>
+	</Vertex>
+	<Vertex id = "402">
+		<Coordinates> -0.549884 2.353480 -0.801531 </Coordinates>
+	</Vertex>
+	<Vertex id = "403">
+		<Coordinates> -0.393771 2.416660 -0.640671 </Coordinates>
+	</Vertex>
+	<Vertex id = "404">
+		<Coordinates> -0.598082 2.368140 -0.637427 </Coordinates>
+	</Vertex>
+	<Vertex id = "405">
+		<Coordinates> -0.398224 2.280210 -0.452346 </Coordinates>
+	</Vertex>
+	<Vertex id = "406">
+		<Coordinates> -0.606990 2.256750 -0.512563 </Coordinates>
+	</Vertex>
+	<Vertex id = "407">
+		<Coordinates> -0.388671 1.931080 -0.399806 </Coordinates>
+	</Vertex>
+	<Vertex id = "408">
+		<Coordinates> -0.602213 2.168190 -0.464319 </Coordinates>
+	</Vertex>
+	<Vertex id = "409">
+		<Coordinates> -0.597436 2.079640 -0.434991 </Coordinates>
+	</Vertex>
+	<Vertex id = "410">
+		<Coordinates> -0.374455 1.213950 -0.348105 </Coordinates>
+	</Vertex>
+	<Vertex id = "411">
+		<Coordinates> -0.388085 1.626260 -0.384026 </Coordinates>
+	</Vertex>
+	<Vertex id = "412">
+		<Coordinates> -0.587882 1.902530 -0.432185 </Coordinates>
+	</Vertex>
+	<Vertex id = "413">
+		<Coordinates> 0.362503 2.404710 -0.811710 </Coordinates>
+	</Vertex>
+	<Vertex id = "414">
+		<Coordinates> 0.189458 2.455950 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "415">
+		<Coordinates> 0.094729 2.474220 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "416">
+		<Coordinates> 0.189458 1.626260 -0.352092 </Coordinates>
+	</Vertex>
+	<Vertex id = "417">
+		<Coordinates> 0.388084 1.626260 -0.384026 </Coordinates>
+	</Vertex>
+	<Vertex id = "418">
+		<Coordinates> 0.587882 1.902530 -0.432185 </Coordinates>
+	</Vertex>
+	<Vertex id = "419">
+		<Coordinates> 0.597435 2.079640 -0.434991 </Coordinates>
+	</Vertex>
+	<Vertex id = "420">
+		<Coordinates> -0.586711 1.626260 -0.415960 </Coordinates>
+	</Vertex>
+	<Vertex id = "421">
+		<Coordinates> -0.559452 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "422">
+		<Coordinates> -0.502999 1.144210 -0.355541 </Coordinates>
+	</Vertex>
+	<Vertex id = "423">
+		<Coordinates> -0.475609 1.041800 -0.353561 </Coordinates>
+	</Vertex>
+	<Vertex id = "424">
+		<Coordinates> -0.485095 0.970107 -0.353275 </Coordinates>
+	</Vertex>
+	<Vertex id = "425">
+		<Coordinates> -0.502202 0.909516 -0.365376 </Coordinates>
+	</Vertex>
+	<Vertex id = "426">
+		<Coordinates> 0.000000 1.626260 -0.352092 </Coordinates>
+	</Vertex>
+	<Vertex id = "427">
+		<Coordinates> 0.094729 1.626260 -0.352092 </Coordinates>
+	</Vertex>
+	<Vertex id = "428">
+		<Coordinates> 0.552259 2.353480 -0.800793 </Coordinates>
+	</Vertex>
+	<Vertex id = "429">
+		<Coordinates> 0.479852 1.041800 -0.353561 </Coordinates>
+	</Vertex>
+	<Vertex id = "430">
+		<Coordinates> 0.502999 1.144210 -0.355541 </Coordinates>
+	</Vertex>
+	<Vertex id = "431">
+		<Coordinates> 0.559451 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "432">
+		<Coordinates> 0.586710 1.626260 -0.415960 </Coordinates>
+	</Vertex>
+	<Vertex id = "433">
+		<Coordinates> -0.000001 2.281730 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "434">
+		<Coordinates> -0.189459 2.255950 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "435">
+		<Coordinates> 0.189458 2.255950 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "436">
+		<Coordinates> -0.094730 2.271210 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "437">
+		<Coordinates> 0.094729 2.274220 -0.807816 </Coordinates>
+	</Vertex>
+	<Vertex id = "438">
+		<Coordinates> 0.362503 2.204710 -0.811710 </Coordinates>
+	</Vertex>
+	<Vertex id = "439">
+		<Coordinates> -0.362504 2.215500 -0.811710 </Coordinates>
+	</Vertex>
+	<Vertex id = "440">
+		<Coordinates> 0.552259 2.153480 -0.800793 </Coordinates>
+	</Vertex>
+	<Vertex id = "441">
+		<Coordinates> -0.549884 2.153480 -0.801531 </Coordinates>
+	</Vertex>
+	<Vertex id = "442">
+		<Coordinates> 0.559451 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "443">
+		<Coordinates> 0.703764 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "444">
+		<Coordinates> 0.586710 1.626260 -0.415960 </Coordinates>
+	</Vertex>
+	<Vertex id = "445">
+		<Coordinates> 0.684524 1.626260 -0.252244 </Coordinates>
+	</Vertex>
+	<Vertex id = "446">
+		<Coordinates> 0.684381 1.902530 -0.182306 </Coordinates>
+	</Vertex>
+	<Vertex id = "447">
+		<Coordinates> 0.744004 1.605550 -0.251284 </Coordinates>
+	</Vertex>
+	<Vertex id = "448">
+		<Coordinates> 0.778462 1.899030 -0.178239 </Coordinates>
+	</Vertex>
+	<Vertex id = "449">
+		<Coordinates> 0.718659 2.389620 -0.359320 </Coordinates>
+	</Vertex>
+	<Vertex id = "450">
+		<Coordinates> 0.693068 2.434610 -0.464471 </Coordinates>
+	</Vertex>
+	<Vertex id = "451">
+		<Coordinates> 0.634254 2.412830 -0.466298 </Coordinates>
+	</Vertex>
+	<Vertex id = "452">
+		<Coordinates> 0.643409 2.431490 -0.638252 </Coordinates>
+	</Vertex>
+	<Vertex id = "453">
+		<Coordinates> 0.595412 2.394520 -0.632087 </Coordinates>
+	</Vertex>
+	<Vertex id = "454">
+		<Coordinates> 0.604741 2.395670 -0.794948 </Coordinates>
+	</Vertex>
+	<Vertex id = "455">
+		<Coordinates> 0.559666 2.365720 -0.793327 </Coordinates>
+	</Vertex>
+	<Vertex id = "456">
+		<Coordinates> 0.591422 2.305940 -0.923918 </Coordinates>
+	</Vertex>
+	<Vertex id = "457">
+		<Coordinates> 0.550614 2.283680 -0.900665 </Coordinates>
+	</Vertex>
+	<Vertex id = "458">
+		<Coordinates> 0.780677 1.213950 -0.437698 </Coordinates>
+	</Vertex>
+	<Vertex id = "459">
+		<Coordinates> 0.819833 1.150290 -0.420637 </Coordinates>
+	</Vertex>
+	<Vertex id = "460">
+		<Coordinates> 0.749580 1.213950 -0.534414 </Coordinates>
+	</Vertex>
+	<Vertex id = "461">
+		<Coordinates> 0.841048 1.094530 -0.410209 </Coordinates>
+	</Vertex>
+	<Vertex id = "462">
+		<Coordinates> 0.807502 0.937464 -0.479031 </Coordinates>
+	</Vertex>
+	<Vertex id = "463">
+		<Coordinates> 0.846119 1.013670 -0.399218 </Coordinates>
+	</Vertex>
+	<Vertex id = "464">
+		<Coordinates> 0.842981 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "465">
+		<Coordinates> -0.778463 1.899030 -0.178239 </Coordinates>
+	</Vertex>
+	<Vertex id = "466">
+		<Coordinates> -0.744005 1.605550 -0.251284 </Coordinates>
+	</Vertex>
+	<Vertex id = "467">
+		<Coordinates> -0.684382 1.902530 -0.182306 </Coordinates>
+	</Vertex>
+	<Vertex id = "468">
+		<Coordinates> -0.684524 1.626260 -0.252244 </Coordinates>
+	</Vertex>
+	<Vertex id = "469">
+		<Coordinates> -0.586711 1.626260 -0.415960 </Coordinates>
+	</Vertex>
+	<Vertex id = "470">
+		<Coordinates> -0.703765 1.213950 -0.246856 </Coordinates>
+	</Vertex>
+	<Vertex id = "471">
+		<Coordinates> -0.559452 1.213950 -0.359175 </Coordinates>
+	</Vertex>
+	<Vertex id = "472">
+		<Coordinates> -0.550615 2.283680 -0.900665 </Coordinates>
+	</Vertex>
+	<Vertex id = "473">
+		<Coordinates> -0.591424 2.305940 -0.923918 </Coordinates>
+	</Vertex>
+	<Vertex id = "474">
+		<Coordinates> -0.559667 2.365720 -0.793327 </Coordinates>
+	</Vertex>
+	<Vertex id = "475">
+		<Coordinates> -0.604742 2.395670 -0.794948 </Coordinates>
+	</Vertex>
+	<Vertex id = "476">
+		<Coordinates> -0.595413 2.394520 -0.632087 </Coordinates>
+	</Vertex>
+	<Vertex id = "477">
+		<Coordinates> -0.643410 2.431490 -0.638252 </Coordinates>
+	</Vertex>
+	<Vertex id = "478">
+		<Coordinates> -0.634255 2.412830 -0.466298 </Coordinates>
+	</Vertex>
+	<Vertex id = "479">
+		<Coordinates> -0.693069 2.424670 -0.464471 </Coordinates>
+	</Vertex>
+	<Vertex id = "480">
+		<Coordinates> -0.718660 2.389620 -0.359321 </Coordinates>
+	</Vertex>
+	<Vertex id = "481">
+		<Coordinates> -0.842982 0.945356 -0.387939 </Coordinates>
+	</Vertex>
+	<Vertex id = "482">
+		<Coordinates> -0.846120 1.013670 -0.399217 </Coordinates>
+	</Vertex>
+	<Vertex id = "483">
+		<Coordinates> -0.807502 0.937464 -0.479030 </Coordinates>
+	</Vertex>
+	<Vertex id = "484">
+		<Coordinates> -0.841049 1.094530 -0.410209 </Coordinates>
+	</Vertex>
+	<Vertex id = "485">
+		<Coordinates> -0.749581 1.213950 -0.534414 </Coordinates>
+	</Vertex>
+	<Vertex id = "486">
+		<Coordinates> -0.819834 1.150290 -0.420637 </Coordinates>
+	</Vertex>
+	<Vertex id = "487">
+		<Coordinates> -0.780678 1.213950 -0.437698 </Coordinates>
+	</Vertex>
+	<Vertex id = "488">
+		<Coordinates> 0.680882 2.069620 -0.139569 </Coordinates>
+	</Vertex>
+	<Vertex id = "489">
+		<Coordinates> 0.781397 2.083340 -0.145097 </Coordinates>
+	</Vertex>
+	<Vertex id = "490">
+		<Coordinates> 0.666057 2.191480 -0.176984 </Coordinates>
+	</Vertex>
+	<Vertex id = "491">
+		<Coordinates> 0.762825 2.210280 -0.181438 </Coordinates>
+	</Vertex>
+	<Vertex id = "492">
+		<Coordinates> 0.651232 2.313340 -0.250780 </Coordinates>
+	</Vertex>
+	<Vertex id = "493">
+		<Coordinates> 0.744252 2.337220 -0.254160 </Coordinates>
+	</Vertex>
+	<Vertex id = "494">
+		<Coordinates> 0.642742 2.363090 -0.358543 </Coordinates>
+	</Vertex>
+	<Vertex id = "495">
+		<Coordinates> 0.770444 0.928903 -0.639261 </Coordinates>
+	</Vertex>
+	<Vertex id = "496">
+		<Coordinates> 0.717166 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "497">
+		<Coordinates> 0.714529 1.213950 -0.692518 </Coordinates>
+	</Vertex>
+	<Vertex id = "498">
+		<Coordinates> 0.680519 1.213950 -0.845925 </Coordinates>
+	</Vertex>
+	<Vertex id = "499">
+		<Coordinates> 0.676087 1.526000 -0.745197 </Coordinates>
+	</Vertex>
+	<Vertex id = "500">
+		<Coordinates> 0.633436 1.486290 -0.893377 </Coordinates>
+	</Vertex>
+	<Vertex id = "501">
+		<Coordinates> 0.698852 1.912900 -0.788890 </Coordinates>
+	</Vertex>
+	<Vertex id = "502">
+		<Coordinates> 0.647617 1.902530 -0.941149 </Coordinates>
+	</Vertex>
+	<Vertex id = "503">
+		<Coordinates> 0.709671 2.098020 -0.811447 </Coordinates>
+	</Vertex>
+	<Vertex id = "504">
+		<Coordinates> 0.651375 2.114580 -0.955863 </Coordinates>
+	</Vertex>
+	<Vertex id = "505">
+		<Coordinates> 0.657837 2.389450 -0.778137 </Coordinates>
+	</Vertex>
+	<Vertex id = "506">
+		<Coordinates> 0.637437 2.279560 -0.908623 </Coordinates>
+	</Vertex>
+	<Vertex id = "507">
+		<Coordinates> 0.704941 2.417930 -0.633075 </Coordinates>
+	</Vertex>
+	<Vertex id = "508">
+		<Coordinates> 0.754833 2.100570 -0.661459 </Coordinates>
+	</Vertex>
+	<Vertex id = "509">
+		<Coordinates> 0.749556 1.913340 -0.629639 </Coordinates>
+	</Vertex>
+	<Vertex id = "510">
+		<Coordinates> 0.720264 1.567410 -0.590627 </Coordinates>
+	</Vertex>
+	<Vertex id = "511">
+		<Coordinates> 0.803896 1.912340 -0.448903 </Coordinates>
+	</Vertex>
+	<Vertex id = "512">
+		<Coordinates> 0.800314 2.086290 -0.477026 </Coordinates>
+	</Vertex>
+	<Vertex id = "513">
+		<Coordinates> 0.859935 1.902530 -0.206642 </Coordinates>
+	</Vertex>
+	<Vertex id = "514">
+		<Coordinates> 0.893171 2.069620 -0.186252 </Coordinates>
+	</Vertex>
+	<Vertex id = "515">
+		<Coordinates> 0.879405 2.193180 -0.219825 </Coordinates>
+	</Vertex>
+	<Vertex id = "516">
+		<Coordinates> 0.840773 2.316730 -0.289780 </Coordinates>
+	</Vertex>
+	<Vertex id = "517">
+		<Coordinates> 0.809987 2.369680 -0.380638 </Coordinates>
+	</Vertex>
+	<Vertex id = "518">
+		<Coordinates> 0.763463 2.425620 -0.471486 </Coordinates>
+	</Vertex>
+	<Vertex id = "519">
+		<Coordinates> 0.587882 1.902530 -0.432185 </Coordinates>
+	</Vertex>
+	<Vertex id = "520">
+		<Coordinates> 0.597435 2.079640 -0.434991 </Coordinates>
+	</Vertex>
+	<Vertex id = "521">
+		<Coordinates> 0.602212 2.168200 -0.464319 </Coordinates>
+	</Vertex>
+	<Vertex id = "522">
+		<Coordinates> 0.606989 2.256750 -0.512563 </Coordinates>
+	</Vertex>
+	<Vertex id = "523">
+		<Coordinates> 0.552259 2.353480 -0.800793 </Coordinates>
+	</Vertex>
+	<Vertex id = "524">
+		<Coordinates> 0.598081 2.368150 -0.637427 </Coordinates>
+	</Vertex>
+	<Vertex id = "525">
+		<Coordinates> 0.737675 1.213950 -0.233697 </Coordinates>
+	</Vertex>
+	<Vertex id = "526">
+		<Coordinates> 0.801465 1.626260 -0.275837 </Coordinates>
+	</Vertex>
+	<Vertex id = "527">
+		<Coordinates> 0.764717 1.213950 -0.267438 </Coordinates>
+	</Vertex>
+	<Vertex id = "528">
+		<Coordinates> 0.758198 1.602830 -0.458451 </Coordinates>
+	</Vertex>
+	<Vertex id = "529">
+		<Coordinates> -0.642743 2.363090 -0.358543 </Coordinates>
+	</Vertex>
+	<Vertex id = "530">
+		<Coordinates> -0.744254 2.337220 -0.254160 </Coordinates>
+	</Vertex>
+	<Vertex id = "531">
+		<Coordinates> -0.651233 2.313340 -0.250780 </Coordinates>
+	</Vertex>
+	<Vertex id = "532">
+		<Coordinates> -0.762826 2.210280 -0.181438 </Coordinates>
+	</Vertex>
+	<Vertex id = "533">
+		<Coordinates> -0.666058 2.191480 -0.176983 </Coordinates>
+	</Vertex>
+	<Vertex id = "534">
+		<Coordinates> -0.781398 2.083340 -0.145097 </Coordinates>
+	</Vertex>
+	<Vertex id = "535">
+		<Coordinates> -0.680882 2.069620 -0.139569 </Coordinates>
+	</Vertex>
+	<Vertex id = "536">
+		<Coordinates> -0.657838 2.368450 -0.778137 </Coordinates>
+	</Vertex>
+	<Vertex id = "537">
+		<Coordinates> -0.704942 2.418840 -0.633075 </Coordinates>
+	</Vertex>
+	<Vertex id = "538">
+		<Coordinates> -0.766049 2.404160 -0.471486 </Coordinates>
+	</Vertex>
+	<Vertex id = "539">
+		<Coordinates> -0.800286 2.378140 -0.380638 </Coordinates>
+	</Vertex>
+	<Vertex id = "540">
+		<Coordinates> -0.840774 2.316730 -0.289780 </Coordinates>
+	</Vertex>
+	<Vertex id = "541">
+		<Coordinates> -0.879406 2.193180 -0.219825 </Coordinates>
+	</Vertex>
+	<Vertex id = "542">
+		<Coordinates> -0.893172 2.069620 -0.186252 </Coordinates>
+	</Vertex>
+	<Vertex id = "543">
+		<Coordinates> -0.866729 1.902530 -0.206642 </Coordinates>
+	</Vertex>
+	<Vertex id = "544">
+		<Coordinates> -0.800315 2.086290 -0.477025 </Coordinates>
+	</Vertex>
+	<Vertex id = "545">
+		<Coordinates> -0.803897 1.912340 -0.448903 </Coordinates>
+	</Vertex>
+	<Vertex id = "546">
+		<Coordinates> -0.749556 1.913340 -0.629639 </Coordinates>
+	</Vertex>
+	<Vertex id = "547">
+		<Coordinates> -0.720265 1.567410 -0.590627 </Coordinates>
+	</Vertex>
+	<Vertex id = "548">
+		<Coordinates> -0.676088 1.526000 -0.745197 </Coordinates>
+	</Vertex>
+	<Vertex id = "549">
+		<Coordinates> -0.714530 1.213950 -0.692518 </Coordinates>
+	</Vertex>
+	<Vertex id = "550">
+		<Coordinates> -0.680520 1.213950 -0.845925 </Coordinates>
+	</Vertex>
+	<Vertex id = "551">
+		<Coordinates> -0.717167 0.921809 -0.795796 </Coordinates>
+	</Vertex>
+	<Vertex id = "552">
+		<Coordinates> -0.770445 0.928903 -0.639261 </Coordinates>
+	</Vertex>
+	<Vertex id = "553">
+		<Coordinates> -0.758199 1.602830 -0.458451 </Coordinates>
+	</Vertex>
+	<Vertex id = "554">
+		<Coordinates> -0.799648 1.626260 -0.275836 </Coordinates>
+	</Vertex>
+	<Vertex id = "555">
+		<Coordinates> -0.778675 2.245220 -0.474256 </Coordinates>
+	</Vertex>
+	<Vertex id = "556">
+		<Coordinates> -0.754834 2.100570 -0.661458 </Coordinates>
+	</Vertex>
+	<Vertex id = "557">
+		<Coordinates> -0.698853 1.912900 -0.788890 </Coordinates>
+	</Vertex>
+	<Vertex id = "558">
+		<Coordinates> -0.633437 1.486290 -0.893377 </Coordinates>
+	</Vertex>
+	<Vertex id = "559">
+		<Coordinates> -0.637438 2.279560 -0.908623 </Coordinates>
+	</Vertex>
+	<Vertex id = "560">
+		<Coordinates> -0.651376 2.114580 -0.955863 </Coordinates>
+	</Vertex>
+	<Vertex id = "561">
+		<Coordinates> -0.709672 2.098020 -0.811447 </Coordinates>
+	</Vertex>
+	<Vertex id = "562">
+		<Coordinates> -0.647618 1.902530 -0.941149 </Coordinates>
+	</Vertex>
+	<Vertex id = "563">
+		<Coordinates> -0.606990 2.256750 -0.512563 </Coordinates>
+	</Vertex>
+	<Vertex id = "564">
+		<Coordinates> -0.602213 2.168190 -0.464319 </Coordinates>
+	</Vertex>
+	<Vertex id = "565">
+		<Coordinates> -0.597436 2.079640 -0.434991 </Coordinates>
+	</Vertex>
+	<Vertex id = "566">
+		<Coordinates> -0.587882 1.902530 -0.432185 </Coordinates>
+	</Vertex>
+	<Vertex id = "567">
+		<Coordinates> -0.598082 2.368140 -0.637427 </Coordinates>
+	</Vertex>
+	<Vertex id = "568">
+		<Coordinates> -0.552260 2.353480 -0.800793 </Coordinates>
+	</Vertex>
+	<Vertex id = "569">
+		<Coordinates> -0.764718 1.213950 -0.267438 </Coordinates>
+	</Vertex>
+	<Vertex id = "570">
+		<Coordinates> -0.737675 1.213950 -0.233697 </Coordinates>
+	</Vertex>
+	<Vertex id = "571">
+		<Coordinates> 0.778674 2.245220 -0.474256 </Coordinates>
+	</Vertex>
+	<Vertex id = "572">
+		<Coordinates> -0.573785 1.104150 0.802625 </Coordinates>
+	</Vertex>
+	<Vertex id = "573">
+		<Coordinates> -0.551684 1.093710 0.763913 </Coordinates>
+	</Vertex>
+	<Vertex id = "574">
+		<Coordinates> -0.582480 1.156210 0.796702 </Coordinates>
+	</Vertex>
+	<Vertex id = "575">
+		<Coordinates> -0.550418 1.156540 0.756765 </Coordinates>
+	</Vertex>
+	<Vertex id = "576">
+		<Coordinates> -0.616087 1.208270 0.789910 </Coordinates>
+	</Vertex>
+	<Vertex id = "577">
+		<Coordinates> -0.590978 1.219370 0.748567 </Coordinates>
+	</Vertex>
+	<Vertex id = "578">
+		<Coordinates> -0.671468 1.234310 0.787976 </Coordinates>
+	</Vertex>
+	<Vertex id = "579">
+		<Coordinates> -0.657817 1.250790 0.746233 </Coordinates>
+	</Vertex>
+	<Vertex id = "580">
+		<Coordinates> -0.726849 1.242650 0.786042 </Coordinates>
+	</Vertex>
+	<Vertex id = "581">
+		<Coordinates> -0.724656 1.260860 0.743899 </Coordinates>
+	</Vertex>
+	<Vertex id = "582">
+		<Coordinates> -0.782230 1.234310 0.784108 </Coordinates>
+	</Vertex>
+	<Vertex id = "583">
+		<Coordinates> -0.791495 1.250790 0.741565 </Coordinates>
+	</Vertex>
+	<Vertex id = "584">
+		<Coordinates> -0.837611 1.208270 0.782174 </Coordinates>
+	</Vertex>
+	<Vertex id = "585">
+		<Coordinates> -0.858335 1.219370 0.739231 </Coordinates>
+	</Vertex>
+	<Vertex id = "586">
+		<Coordinates> -0.875002 1.156210 0.786487 </Coordinates>
+	</Vertex>
+	<Vertex id = "587">
+		<Coordinates> -0.903462 1.156540 0.744436 </Coordinates>
+	</Vertex>
+	<Vertex id = "588">
+		<Coordinates> -0.875666 1.104150 0.791777 </Coordinates>
+	</Vertex>
+	<Vertex id = "589">
+		<Coordinates> -0.914832 1.093710 0.750821 </Coordinates>
+	</Vertex>
+	<Vertex id = "590">
+		<Coordinates> -0.854607 1.052100 0.797612 </Coordinates>
+	</Vertex>
+	<Vertex id = "591">
+		<Coordinates> -0.907346 1.030880 0.757863 </Coordinates>
+	</Vertex>
+	<Vertex id = "592">
+		<Coordinates> -0.827992 0.998810 0.803508 </Coordinates>
+	</Vertex>
+	<Vertex id = "593">
+		<Coordinates> -0.897773 0.968058 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "594">
+		<Coordinates> -0.650223 1.005080 0.791505 </Coordinates>
+	</Vertex>
+	<Vertex id = "595">
+		<Coordinates> -0.591924 0.968058 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "596">
+		<Coordinates> -0.615909 1.044370 0.787617 </Coordinates>
+	</Vertex>
+	<Vertex id = "597">
+		<Coordinates> -0.550891 1.030880 0.770311 </Coordinates>
+	</Vertex>
+	<Vertex id = "598">
+		<Coordinates> -0.852633 0.927358 0.812534 </Coordinates>
+	</Vertex>
+	<Vertex id = "599">
+		<Coordinates> -0.619731 0.926718 0.820860 </Coordinates>
+	</Vertex>
+	<Vertex id = "600">
+		<Coordinates> -0.832835 0.896360 0.859519 </Coordinates>
+	</Vertex>
+	<Vertex id = "601">
+		<Coordinates> -0.634852 0.900783 0.866504 </Coordinates>
+	</Vertex>
+	<Vertex id = "602">
+		<Coordinates> -0.823381 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "603">
+		<Coordinates> -0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "604">
+		<Coordinates> 0.573784 1.104150 0.802624 </Coordinates>
+	</Vertex>
+	<Vertex id = "605">
+		<Coordinates> 0.582480 1.156210 0.796702 </Coordinates>
+	</Vertex>
+	<Vertex id = "606">
+		<Coordinates> 0.551684 1.093710 0.763913 </Coordinates>
+	</Vertex>
+	<Vertex id = "607">
+		<Coordinates> 0.550418 1.156540 0.756765 </Coordinates>
+	</Vertex>
+	<Vertex id = "608">
+		<Coordinates> 0.616086 1.208270 0.789910 </Coordinates>
+	</Vertex>
+	<Vertex id = "609">
+		<Coordinates> 0.590977 1.219370 0.748567 </Coordinates>
+	</Vertex>
+	<Vertex id = "610">
+		<Coordinates> 0.671467 1.234310 0.787976 </Coordinates>
+	</Vertex>
+	<Vertex id = "611">
+		<Coordinates> 0.657817 1.250790 0.746233 </Coordinates>
+	</Vertex>
+	<Vertex id = "612">
+		<Coordinates> 0.726848 1.242650 0.786042 </Coordinates>
+	</Vertex>
+	<Vertex id = "613">
+		<Coordinates> 0.724656 1.260860 0.743899 </Coordinates>
+	</Vertex>
+	<Vertex id = "614">
+		<Coordinates> 0.782229 1.234310 0.784108 </Coordinates>
+	</Vertex>
+	<Vertex id = "615">
+		<Coordinates> 0.791495 1.250790 0.741565 </Coordinates>
+	</Vertex>
+	<Vertex id = "616">
+		<Coordinates> 0.837610 1.208270 0.782174 </Coordinates>
+	</Vertex>
+	<Vertex id = "617">
+		<Coordinates> 0.858334 1.219370 0.739231 </Coordinates>
+	</Vertex>
+	<Vertex id = "618">
+		<Coordinates> 0.875002 1.156210 0.786487 </Coordinates>
+	</Vertex>
+	<Vertex id = "619">
+		<Coordinates> 0.903462 1.156540 0.744436 </Coordinates>
+	</Vertex>
+	<Vertex id = "620">
+		<Coordinates> 0.875666 1.104150 0.791777 </Coordinates>
+	</Vertex>
+	<Vertex id = "621">
+		<Coordinates> 0.914831 1.093710 0.750821 </Coordinates>
+	</Vertex>
+	<Vertex id = "622">
+		<Coordinates> 0.854606 1.052100 0.797612 </Coordinates>
+	</Vertex>
+	<Vertex id = "623">
+		<Coordinates> 0.907346 1.030880 0.757863 </Coordinates>
+	</Vertex>
+	<Vertex id = "624">
+		<Coordinates> 0.827992 0.998810 0.803508 </Coordinates>
+	</Vertex>
+	<Vertex id = "625">
+		<Coordinates> 0.897772 0.968059 0.764979 </Coordinates>
+	</Vertex>
+	<Vertex id = "626">
+		<Coordinates> 0.650223 1.005080 0.791504 </Coordinates>
+	</Vertex>
+	<Vertex id = "627">
+		<Coordinates> 0.591924 0.968059 0.775659 </Coordinates>
+	</Vertex>
+	<Vertex id = "628">
+		<Coordinates> 0.615908 1.044370 0.787617 </Coordinates>
+	</Vertex>
+	<Vertex id = "629">
+		<Coordinates> 0.550891 1.030880 0.770311 </Coordinates>
+	</Vertex>
+	<Vertex id = "630">
+		<Coordinates> 0.852633 0.927358 0.812534 </Coordinates>
+	</Vertex>
+	<Vertex id = "631">
+		<Coordinates> 0.619730 0.926718 0.820860 </Coordinates>
+	</Vertex>
+	<Vertex id = "632">
+		<Coordinates> 0.832835 0.896360 0.859519 </Coordinates>
+	</Vertex>
+	<Vertex id = "633">
+		<Coordinates> 0.634852 0.900783 0.866504 </Coordinates>
+	</Vertex>
+	<Vertex id = "634">
+		<Coordinates> 0.823380 0.879259 0.906173 </Coordinates>
+	</Vertex>
+	<Vertex id = "635">
+		<Coordinates> 0.642664 0.876244 0.912396 </Coordinates>
+	</Vertex>
+	<Vertex id = "636">
+		<Coordinates> -4.872810 -0.043231 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "637">
+		<Coordinates> -8.121350 -0.043232 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "638">
+		<Coordinates> -4.872810 -0.043231 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "639">
+		<Coordinates> -8.121350 -0.043232 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "640">
+		<Coordinates> -4.872810 -0.043233 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "641">
+		<Coordinates> -8.121350 -0.043234 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "642">
+		<Coordinates> -4.872810 -0.043234 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "643">
+		<Coordinates> -8.121350 -0.043235 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "644">
+		<Coordinates> -4.872810 -0.043235 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "645">
+		<Coordinates> -8.121350 -0.043235 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "646">
+		<Coordinates> -4.872810 -0.043236 8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "647">
+		<Coordinates> -8.121350 -0.043236 8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "648">
+		<Coordinates> -1.624270 -0.043231 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "649">
+		<Coordinates> -1.624270 -0.043231 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "650">
+		<Coordinates> -1.624270 -0.043232 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "651">
+		<Coordinates> -1.624270 -0.043233 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "652">
+		<Coordinates> -1.624270 -0.043234 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "653">
+		<Coordinates> -1.624270 -0.043235 8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "654">
+		<Coordinates> 1.624270 -0.043230 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "655">
+		<Coordinates> 1.624270 -0.043230 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "656">
+		<Coordinates> 1.624270 -0.043232 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "657">
+		<Coordinates> 1.624270 -0.043233 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "658">
+		<Coordinates> 1.624270 -0.043233 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "659">
+		<Coordinates> 1.624270 -0.043234 8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "660">
+		<Coordinates> 4.872810 -0.043229 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "661">
+		<Coordinates> 4.872810 -0.043229 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "662">
+		<Coordinates> 4.872810 -0.043231 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "663">
+		<Coordinates> 4.872810 -0.043232 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "664">
+		<Coordinates> 4.872810 -0.043233 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "665">
+		<Coordinates> 4.872810 -0.043234 8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "666">
+		<Coordinates> 8.121350 -0.043229 -8.121350 </Coordinates>
+	</Vertex>
+	<Vertex id = "667">
+		<Coordinates> 8.121350 -0.043229 -4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "668">
+		<Coordinates> 8.121350 -0.043230 -1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "669">
+		<Coordinates> 8.121350 -0.043231 1.624270 </Coordinates>
+	</Vertex>
+	<Vertex id = "670">
+		<Coordinates> 8.121350 -0.043232 4.872810 </Coordinates>
+	</Vertex>
+	<Vertex id = "671">
+		<Coordinates> 8.121350 -0.043233 8.121350 </Coordinates>
+	</Vertex>
+	<Triangle id = "1">
+		<Vertices> 1 2 3 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "2">
+		<Vertices> 4 3 5 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "3">
+		<Vertices> 3 4 6 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "4">
+		<Vertices> 5 3 2 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "5">
+		<Vertices> 7 8 9 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "6">
+		<Vertices> 10 9 11 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "7">
+		<Vertices> 9 10 12 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "8">
+		<Vertices> 7 9 12 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "9">
+		<Vertices> 2 1 13 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "10">
+		<Vertices> 1 14 13 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "11">
+		<Vertices> 13 14 15 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "12">
+		<Vertices> 16 17 18 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "13">
+		<Vertices> 17 19 18 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "14">
+		<Vertices> 18 19 20 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "15">
+		<Vertices> 21 22 23 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "16">
+		<Vertices> 22 8 23 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "17">
+		<Vertices> 23 8 7 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "18">
+		<Vertices> 24 25 26 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "19">
+		<Vertices> 25 27 26 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "20">
+		<Vertices> 26 27 28 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "21">
+		<Vertices> 29 30 15 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "22">
+		<Vertices> 30 31 15 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "23">
+		<Vertices> 15 31 13 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "24">
+		<Vertices> 32 33 34 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "25">
+		<Vertices> 33 35 34 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "26">
+		<Vertices> 34 35 36 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "27">
+		<Vertices> 35 29 36 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "28">
+		<Vertices> 36 29 37 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "29">
+		<Vertices> 29 15 37 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "30">
+		<Vertices> 38 39 40 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "31">
+		<Vertices> 39 41 40 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "32">
+		<Vertices> 40 41 42 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "33">
+		<Vertices> 41 43 42 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "34">
+		<Vertices> 42 43 44 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "35">
+		<Vertices> 43 16 44 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "36">
+		<Vertices> 44 16 18 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "37">
+		<Vertices> 34 38 32 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "38">
+		<Vertices> 38 40 32 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "39">
+		<Vertices> 45 46 47 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "40">
+		<Vertices> 46 21 47 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "41">
+		<Vertices> 47 21 48 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "42">
+		<Vertices> 21 49 48 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "43">
+		<Vertices> 49 21 23 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "44">
+		<Vertices> 26 28 50 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "45">
+		<Vertices> 28 51 50 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "46">
+		<Vertices> 50 51 52 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "47">
+		<Vertices> 51 53 52 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "48">
+		<Vertices> 52 53 54 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "49">
+		<Vertices> 53 55 54 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "50">
+		<Vertices> 54 55 56 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "51">
+		<Vertices> 57 58 59 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "52">
+		<Vertices> 59 58 60 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "53">
+		<Vertices> 58 45 60 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "54">
+		<Vertices> 60 45 47 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "55">
+		<Vertices> 54 56 57 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "56">
+		<Vertices> 56 58 57 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "57">
+		<Vertices> 61 62 63 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "58">
+		<Vertices> 64 63 65 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "59">
+		<Vertices> 66 65 67 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "60">
+		<Vertices> 68 67 69 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "61">
+		<Vertices> 70 69 71 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "62">
+		<Vertices> 72 71 73 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "63">
+		<Vertices> 74 73 75 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "64">
+		<Vertices> 76 62 61 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "65">
+		<Vertices> 61 63 64 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "66">
+		<Vertices> 64 65 66 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "67">
+		<Vertices> 66 67 68 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "68">
+		<Vertices> 68 69 70 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "69">
+		<Vertices> 70 71 72 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "70">
+		<Vertices> 72 73 74 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "71">
+		<Vertices> 77 78 79 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "72">
+		<Vertices> 80 81 82 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "73">
+		<Vertices> 83 81 84 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "74">
+		<Vertices> 81 80 84 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "75">
+		<Vertices> 84 80 85 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "76">
+		<Vertices> 80 86 85 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "77">
+		<Vertices> 85 86 78 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "78">
+		<Vertices> 86 87 78 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "79">
+		<Vertices> 78 87 79 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "80">
+		<Vertices> 87 88 79 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "81">
+		<Vertices> 79 88 89 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "82">
+		<Vertices> 86 80 90 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "83">
+		<Vertices> 80 82 90 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "84">
+		<Vertices> 90 82 91 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "85">
+		<Vertices> 82 92 91 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "86">
+		<Vertices> 90 93 86 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "87">
+		<Vertices> 93 94 86 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "88">
+		<Vertices> 86 94 95 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "89">
+		<Vertices> 87 86 95 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "90">
+		<Vertices> 96 97 98 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "91">
+		<Vertices> 97 99 98 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "92">
+		<Vertices> 98 99 85 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "93">
+		<Vertices> 99 84 85 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "94">
+		<Vertices> 85 78 98 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "95">
+		<Vertices> 78 77 98 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "96">
+		<Vertices> 98 77 96 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "97">
+		<Vertices> 83 84 100 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "98">
+		<Vertices> 84 99 100 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "99">
+		<Vertices> 101 102 103 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "100">
+		<Vertices> 102 104 103 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "101">
+		<Vertices> 103 104 105 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "102">
+		<Vertices> 104 106 105 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "103">
+		<Vertices> 105 106 107 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "104">
+		<Vertices> 106 108 107 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "105">
+		<Vertices> 107 108 109 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "106">
+		<Vertices> 108 110 109 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "107">
+		<Vertices> 111 112 113 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "108">
+		<Vertices> 112 114 113 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "109">
+		<Vertices> 113 114 115 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "110">
+		<Vertices> 116 113 115 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "111">
+		<Vertices> 117 118 119 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "112">
+		<Vertices> 119 118 120 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "113">
+		<Vertices> 118 121 120 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "114">
+		<Vertices> 120 121 122 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "115">
+		<Vertices> 121 123 122 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "116">
+		<Vertices> 122 123 124 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "117">
+		<Vertices> 123 125 124 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "118">
+		<Vertices> 124 125 126 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "119">
+		<Vertices> 127 128 129 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "120">
+		<Vertices> 128 130 129 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "121">
+		<Vertices> 129 130 131 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "122">
+		<Vertices> 132 129 131 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "123">
+		<Vertices> 133 134 135 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "124">
+		<Vertices> 136 133 135 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "125">
+		<Vertices> 137 138 139 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "126">
+		<Vertices> 140 141 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "127">
+		<Vertices> 142 143 140 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "128">
+		<Vertices> 144 145 146 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "129">
+		<Vertices> 147 148 149 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "130">
+		<Vertices> 149 148 150 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "131">
+		<Vertices> 151 152 153 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "132">
+		<Vertices> 152 154 153 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "133">
+		<Vertices> 153 154 155 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "134">
+		<Vertices> 154 156 155 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "135">
+		<Vertices> 155 156 138 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "136">
+		<Vertices> 156 157 138 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "137">
+		<Vertices> 157 133 138 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "138">
+		<Vertices> 158 133 157 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "139">
+		<Vertices> 133 158 159 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "140">
+		<Vertices> 158 160 159 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "141">
+		<Vertices> 159 160 161 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "142">
+		<Vertices> 160 162 161 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "143">
+		<Vertices> 161 162 159 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "144">
+		<Vertices> 162 163 159 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "145">
+		<Vertices> 159 163 164 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "146">
+		<Vertices> 163 165 164 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "147">
+		<Vertices> 164 165 166 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "148">
+		<Vertices> 165 167 166 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "149">
+		<Vertices> 166 167 134 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "150">
+		<Vertices> 167 168 134 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "151">
+		<Vertices> 134 168 169 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "152">
+		<Vertices> 168 170 169 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "153">
+		<Vertices> 169 170 136 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "154">
+		<Vertices> 170 171 136 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "155">
+		<Vertices> 136 171 172 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "156">
+		<Vertices> 171 173 172 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "157">
+		<Vertices> 172 173 174 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "158">
+		<Vertices> 173 175 174 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "159">
+		<Vertices> 174 175 176 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "160">
+		<Vertices> 175 177 176 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "161">
+		<Vertices> 176 177 178 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "162">
+		<Vertices> 177 179 178 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "163">
+		<Vertices> 178 179 180 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "164">
+		<Vertices> 179 137 180 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "165">
+		<Vertices> 180 137 139 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "166">
+		<Vertices> 181 182 183 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "167">
+		<Vertices> 183 182 184 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "168">
+		<Vertices> 185 186 187 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "169">
+		<Vertices> 186 188 187 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "170">
+		<Vertices> 189 185 190 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "171">
+		<Vertices> 185 187 190 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "172">
+		<Vertices> 191 189 192 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "173">
+		<Vertices> 189 190 192 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "174">
+		<Vertices> 144 146 193 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "175">
+		<Vertices> 146 194 193 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "176">
+		<Vertices> 193 194 195 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "177">
+		<Vertices> 194 196 195 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "178">
+		<Vertices> 195 196 197 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "179">
+		<Vertices> 196 198 197 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "180">
+		<Vertices> 197 198 199 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "181">
+		<Vertices> 198 200 199 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "182">
+		<Vertices> 199 200 201 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "183">
+		<Vertices> 200 202 201 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "184">
+		<Vertices> 201 202 143 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "185">
+		<Vertices> 202 203 143 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "186">
+		<Vertices> 143 203 204 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "187">
+		<Vertices> 203 205 204 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "188">
+		<Vertices> 204 205 141 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "189">
+		<Vertices> 205 206 141 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "190">
+		<Vertices> 141 206 207 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "191">
+		<Vertices> 206 208 207 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "192">
+		<Vertices> 207 208 209 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "193">
+		<Vertices> 208 210 209 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "194">
+		<Vertices> 209 210 211 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "195">
+		<Vertices> 210 212 211 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "196">
+		<Vertices> 211 212 213 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "197">
+		<Vertices> 212 214 213 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "198">
+		<Vertices> 213 214 211 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "199">
+		<Vertices> 214 215 211 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "200">
+		<Vertices> 211 215 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "201">
+		<Vertices> 215 216 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "202">
+		<Vertices> 142 216 145 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "203">
+		<Vertices> 216 217 145 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "204">
+		<Vertices> 145 217 218 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "205">
+		<Vertices> 217 219 218 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "206">
+		<Vertices> 218 219 220 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "207">
+		<Vertices> 219 221 220 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "208">
+		<Vertices> 220 221 222 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "209">
+		<Vertices> 154 152 223 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "210">
+		<Vertices> 152 224 223 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "211">
+		<Vertices> 223 224 162 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "212">
+		<Vertices> 224 225 162 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "213">
+		<Vertices> 162 225 163 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "214">
+		<Vertices> 225 226 163 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "215">
+		<Vertices> 163 226 165 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "216">
+		<Vertices> 226 227 165 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "217">
+		<Vertices> 165 227 167 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "218">
+		<Vertices> 227 228 167 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "219">
+		<Vertices> 167 228 168 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "220">
+		<Vertices> 228 229 168 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "221">
+		<Vertices> 168 229 170 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "222">
+		<Vertices> 229 230 170 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "223">
+		<Vertices> 170 230 171 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "224">
+		<Vertices> 230 231 171 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "225">
+		<Vertices> 171 231 173 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "226">
+		<Vertices> 231 232 173 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "227">
+		<Vertices> 173 232 175 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "228">
+		<Vertices> 232 233 175 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "229">
+		<Vertices> 175 233 177 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "230">
+		<Vertices> 233 234 177 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "231">
+		<Vertices> 177 234 179 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "232">
+		<Vertices> 234 151 179 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "233">
+		<Vertices> 179 151 153 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "234">
+		<Vertices> 136 135 169 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "235">
+		<Vertices> 135 134 169 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "236">
+		<Vertices> 164 133 159 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "237">
+		<Vertices> 166 133 164 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "238">
+		<Vertices> 133 166 134 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "239">
+		<Vertices> 172 133 136 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "240">
+		<Vertices> 174 133 172 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "241">
+		<Vertices> 133 174 176 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "242">
+		<Vertices> 138 137 155 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "243">
+		<Vertices> 137 179 155 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "244">
+		<Vertices> 155 179 153 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "245">
+		<Vertices> 178 180 176 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "246">
+		<Vertices> 176 180 235 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "247">
+		<Vertices> 180 139 235 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "248">
+		<Vertices> 235 139 138 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "249">
+		<Vertices> 220 222 194 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "250">
+		<Vertices> 222 236 194 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "251">
+		<Vertices> 194 236 196 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "252">
+		<Vertices> 236 237 196 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "253">
+		<Vertices> 196 237 198 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "254">
+		<Vertices> 237 238 198 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "255">
+		<Vertices> 198 238 200 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "256">
+		<Vertices> 238 239 200 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "257">
+		<Vertices> 200 239 202 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "258">
+		<Vertices> 239 240 202 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "259">
+		<Vertices> 202 240 203 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "260">
+		<Vertices> 240 241 203 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "261">
+		<Vertices> 203 241 205 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "262">
+		<Vertices> 241 242 205 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "263">
+		<Vertices> 205 242 206 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "264">
+		<Vertices> 242 243 206 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "265">
+		<Vertices> 206 243 208 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "266">
+		<Vertices> 243 244 208 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "267">
+		<Vertices> 208 244 210 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "268">
+		<Vertices> 244 245 210 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "269">
+		<Vertices> 210 245 212 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "270">
+		<Vertices> 245 246 212 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "271">
+		<Vertices> 212 246 247 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "272">
+		<Vertices> 246 221 247 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "273">
+		<Vertices> 247 221 219 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "274">
+		<Vertices> 141 207 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "275">
+		<Vertices> 207 209 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "276">
+		<Vertices> 142 209 211 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "277">
+		<Vertices> 143 204 140 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "278">
+		<Vertices> 204 141 140 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "279">
+		<Vertices> 197 199 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "280">
+		<Vertices> 199 201 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "281">
+		<Vertices> 142 201 143 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "282">
+		<Vertices> 220 194 218 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "283">
+		<Vertices> 194 146 218 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "284">
+		<Vertices> 218 146 145 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "285">
+		<Vertices> 195 197 193 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "286">
+		<Vertices> 197 248 193 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "287">
+		<Vertices> 193 248 144 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "288">
+		<Vertices> 248 145 144 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "289">
+		<Vertices> 138 133 235 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "290">
+		<Vertices> 133 176 235 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "291">
+		<Vertices> 223 162 249 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "292">
+		<Vertices> 162 160 249 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "293">
+		<Vertices> 249 160 250 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "294">
+		<Vertices> 160 157 250 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "295">
+		<Vertices> 250 157 249 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "296">
+		<Vertices> 157 156 249 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "297">
+		<Vertices> 249 156 154 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "298">
+		<Vertices> 249 154 223 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "299">
+		<Vertices> 157 160 158 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "300">
+		<Vertices> 145 248 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "301">
+		<Vertices> 248 197 142 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "302">
+		<Vertices> 219 217 251 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "303">
+		<Vertices> 217 216 251 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "304">
+		<Vertices> 251 216 252 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "305">
+		<Vertices> 216 214 252 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "306">
+		<Vertices> 252 214 251 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "307">
+		<Vertices> 214 212 251 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "308">
+		<Vertices> 251 212 247 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "309">
+		<Vertices> 219 251 247 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "310">
+		<Vertices> 214 216 215 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "311">
+		<Vertices> 253 254 255 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "312">
+		<Vertices> 256 254 253 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "313">
+		<Vertices> 257 258 259 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "314">
+		<Vertices> 259 258 260 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "315">
+		<Vertices> 258 261 260 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "316">
+		<Vertices> 260 261 262 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "317">
+		<Vertices> 259 260 263 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "318">
+		<Vertices> 263 260 264 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "319">
+		<Vertices> 260 262 264 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "320">
+		<Vertices> 264 262 265 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "321">
+		<Vertices> 266 267 268 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "322">
+		<Vertices> 267 269 268 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "323">
+		<Vertices> 268 269 270 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "324">
+		<Vertices> 269 271 270 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "325">
+		<Vertices> 270 271 272 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "326">
+		<Vertices> 268 270 273 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "327">
+		<Vertices> 270 272 273 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "328">
+		<Vertices> 273 272 274 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "329">
+		<Vertices> 275 276 277 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "330">
+		<Vertices> 277 276 278 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "331">
+		<Vertices> 276 268 278 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "332">
+		<Vertices> 278 268 279 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "333">
+		<Vertices> 268 273 279 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "334">
+		<Vertices> 279 273 280 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "335">
+		<Vertices> 273 274 280 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "336">
+		<Vertices> 280 274 281 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "337">
+		<Vertices> 282 271 283 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "338">
+		<Vertices> 271 281 283 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "339">
+		<Vertices> 281 271 280 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "340">
+		<Vertices> 271 269 280 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "341">
+		<Vertices> 280 269 267 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "342">
+		<Vertices> 284 285 266 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "343">
+		<Vertices> 285 286 266 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "344">
+		<Vertices> 266 286 287 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "345">
+		<Vertices> 275 284 276 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "346">
+		<Vertices> 284 266 276 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "347">
+		<Vertices> 276 266 268 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "348">
+		<Vertices> 280 287 279 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "349">
+		<Vertices> 287 286 279 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "350">
+		<Vertices> 279 286 278 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "351">
+		<Vertices> 286 285 278 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "352">
+		<Vertices> 278 285 277 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "353">
+		<Vertices> 288 289 290 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "354">
+		<Vertices> 291 292 288 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "355">
+		<Vertices> 292 293 288 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "356">
+		<Vertices> 288 293 289 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "357">
+		<Vertices> 293 294 289 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "358">
+		<Vertices> 295 296 297 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "359">
+		<Vertices> 296 298 297 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "360">
+		<Vertices> 297 298 299 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "361">
+		<Vertices> 300 301 297 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "362">
+		<Vertices> 301 302 297 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "363">
+		<Vertices> 297 302 295 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "364">
+		<Vertices> 303 304 301 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "365">
+		<Vertices> 304 305 301 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "366">
+		<Vertices> 301 305 302 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "367">
+		<Vertices> 298 296 305 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "368">
+		<Vertices> 296 306 305 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "369">
+		<Vertices> 305 306 307 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "370">
+		<Vertices> 304 303 299 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "371">
+		<Vertices> 303 308 299 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "372">
+		<Vertices> 299 308 309 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "373">
+		<Vertices> 297 299 310 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "374">
+		<Vertices> 299 309 310 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "375">
+		<Vertices> 310 309 311 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "376">
+		<Vertices> 311 312 310 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "377">
+		<Vertices> 312 300 310 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "378">
+		<Vertices> 310 300 297 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "379">
+		<Vertices> 312 308 300 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "380">
+		<Vertices> 308 303 300 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "381">
+		<Vertices> 300 303 301 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "382">
+		<Vertices> 313 314 306 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "383">
+		<Vertices> 314 307 306 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "384">
+		<Vertices> 280 267 287 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "385">
+		<Vertices> 267 266 287 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "386">
+		<Vertices> 299 298 304 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "387">
+		<Vertices> 298 305 304 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "388">
+		<Vertices> 256 315 254 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "389">
+		<Vertices> 316 317 258 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "390">
+		<Vertices> 318 316 257 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "391">
+		<Vertices> 290 315 256 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "392">
+		<Vertices> 258 317 261 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "393">
+		<Vertices> 257 316 258 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "394">
+		<Vertices> 264 318 263 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "395">
+		<Vertices> 318 264 316 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "396">
+		<Vertices> 264 265 316 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "397">
+		<Vertices> 316 265 317 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "398">
+		<Vertices> 292 255 293 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "399">
+		<Vertices> 255 254 293 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "400">
+		<Vertices> 293 254 294 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "401">
+		<Vertices> 254 315 294 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "402">
+		<Vertices> 253 291 256 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "403">
+		<Vertices> 291 288 256 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "404">
+		<Vertices> 256 288 290 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "405">
+		<Vertices> 319 320 321 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "406">
+		<Vertices> 320 322 321 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "407">
+		<Vertices> 321 322 323 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "408">
+		<Vertices> 322 324 323 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "409">
+		<Vertices> 323 324 325 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "410">
+		<Vertices> 324 326 325 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "411">
+		<Vertices> 325 326 327 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "412">
+		<Vertices> 326 328 327 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "413">
+		<Vertices> 327 328 329 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "414">
+		<Vertices> 330 331 332 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "415">
+		<Vertices> 331 333 332 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "416">
+		<Vertices> 332 333 334 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "417">
+		<Vertices> 335 336 337 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "418">
+		<Vertices> 336 338 337 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "419">
+		<Vertices> 337 338 339 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "420">
+		<Vertices> 338 324 339 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "421">
+		<Vertices> 339 324 322 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "422">
+		<Vertices> 329 340 327 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "423">
+		<Vertices> 340 341 327 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "424">
+		<Vertices> 327 341 342 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "425">
+		<Vertices> 341 343 342 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "426">
+		<Vertices> 342 343 344 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "427">
+		<Vertices> 321 323 345 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "428">
+		<Vertices> 323 346 345 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "429">
+		<Vertices> 345 346 347 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "430">
+		<Vertices> 348 349 350 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "431">
+		<Vertices> 349 351 350 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "432">
+		<Vertices> 350 351 352 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "433">
+		<Vertices> 342 344 346 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "434">
+		<Vertices> 344 353 346 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "435">
+		<Vertices> 346 353 347 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "436">
+		<Vertices> 332 334 354 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "437">
+		<Vertices> 334 355 354 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "438">
+		<Vertices> 354 355 356 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "439">
+		<Vertices> 357 358 359 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "440">
+		<Vertices> 358 348 359 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "441">
+		<Vertices> 359 348 350 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "442">
+		<Vertices> 324 338 326 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "443">
+		<Vertices> 338 336 326 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "444">
+		<Vertices> 326 336 328 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "445">
+		<Vertices> 327 342 325 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "446">
+		<Vertices> 342 346 325 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "447">
+		<Vertices> 325 346 323 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "448">
+		<Vertices> 339 322 320 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "449">
+		<Vertices> 360 361 362 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "450">
+		<Vertices> 361 363 362 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "451">
+		<Vertices> 362 363 364 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "452">
+		<Vertices> 363 365 364 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "453">
+		<Vertices> 364 365 366 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "454">
+		<Vertices> 365 367 366 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "455">
+		<Vertices> 366 367 368 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "456">
+		<Vertices> 367 369 368 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "457">
+		<Vertices> 368 369 370 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "458">
+		<Vertices> 369 371 370 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "459">
+		<Vertices> 370 371 372 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "460">
+		<Vertices> 371 373 372 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "461">
+		<Vertices> 372 373 374 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "462">
+		<Vertices> 361 375 363 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "463">
+		<Vertices> 375 376 363 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "464">
+		<Vertices> 363 376 365 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "465">
+		<Vertices> 376 377 365 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "466">
+		<Vertices> 365 377 367 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "467">
+		<Vertices> 377 378 367 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "468">
+		<Vertices> 367 378 369 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "469">
+		<Vertices> 378 379 369 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "470">
+		<Vertices> 369 379 371 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "471">
+		<Vertices> 379 380 371 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "472">
+		<Vertices> 371 380 381 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "473">
+		<Vertices> 382 383 384 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "474">
+		<Vertices> 383 385 384 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "475">
+		<Vertices> 384 385 386 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "476">
+		<Vertices> 385 387 386 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "477">
+		<Vertices> 386 387 388 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "478">
+		<Vertices> 387 389 388 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "479">
+		<Vertices> 388 389 390 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "480">
+		<Vertices> 389 370 390 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "481">
+		<Vertices> 390 370 372 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "482">
+		<Vertices> 391 392 393 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "483">
+		<Vertices> 392 394 393 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "484">
+		<Vertices> 393 394 395 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "485">
+		<Vertices> 394 396 395 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "486">
+		<Vertices> 395 396 397 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "487">
+		<Vertices> 396 398 397 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "488">
+		<Vertices> 397 398 399 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "489">
+		<Vertices> 398 400 399 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "490">
+		<Vertices> 399 400 401 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "491">
+		<Vertices> 374 402 403 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "492">
+		<Vertices> 402 404 403 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "493">
+		<Vertices> 403 404 405 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "494">
+		<Vertices> 404 406 405 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "495">
+		<Vertices> 405 406 407 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "496">
+		<Vertices> 406 408 407 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "497">
+		<Vertices> 407 408 409 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "498">
+		<Vertices> 382 384 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "499">
+		<Vertices> 384 386 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "500">
+		<Vertices> 410 386 411 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "501">
+		<Vertices> 386 407 411 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "502">
+		<Vertices> 411 407 412 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "503">
+		<Vertices> 407 409 412 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "504">
+		<Vertices> 413 414 377 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "505">
+		<Vertices> 414 415 377 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "506">
+		<Vertices> 377 415 378 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "507">
+		<Vertices> 415 380 378 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "508">
+		<Vertices> 378 380 379 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "509">
+		<Vertices> 397 399 416 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "510">
+		<Vertices> 399 417 416 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "511">
+		<Vertices> 416 417 362 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "512">
+		<Vertices> 417 418 362 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "513">
+		<Vertices> 362 418 419 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "514">
+		<Vertices> 360 362 419 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "515">
+		<Vertices> 373 371 381 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "516">
+		<Vertices> 412 420 411 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "517">
+		<Vertices> 420 421 411 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "518">
+		<Vertices> 411 421 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "519">
+		<Vertices> 421 422 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "520">
+		<Vertices> 410 422 423 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "521">
+		<Vertices> 423 424 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "522">
+		<Vertices> 424 425 410 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "523">
+		<Vertices> 410 425 382 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "524">
+		<Vertices> 383 391 385 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "525">
+		<Vertices> 391 393 385 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "526">
+		<Vertices> 385 393 426 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "527">
+		<Vertices> 393 395 426 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "528">
+		<Vertices> 426 395 427 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "529">
+		<Vertices> 395 397 427 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "530">
+		<Vertices> 427 397 416 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "531">
+		<Vertices> 375 428 376 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "532">
+		<Vertices> 428 413 376 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "533">
+		<Vertices> 376 413 377 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "534">
+		<Vertices> 401 429 399 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "535">
+		<Vertices> 429 430 399 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "536">
+		<Vertices> 399 430 431 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "537">
+		<Vertices> 399 431 417 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "538">
+		<Vertices> 431 432 417 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "539">
+		<Vertices> 417 432 418 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "540">
+		<Vertices> 386 388 407 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "541">
+		<Vertices> 407 388 405 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "542">
+		<Vertices> 388 390 405 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "543">
+		<Vertices> 405 390 403 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "544">
+		<Vertices> 390 372 403 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "545">
+		<Vertices> 403 372 374 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "546">
+		<Vertices> 370 389 368 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "547">
+		<Vertices> 368 389 426 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "548">
+		<Vertices> 389 387 426 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "549">
+		<Vertices> 426 387 385 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "550">
+		<Vertices> 368 426 366 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "551">
+		<Vertices> 426 427 366 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "552">
+		<Vertices> 366 427 364 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "553">
+		<Vertices> 427 416 364 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "554">
+		<Vertices> 364 416 362 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "555">
+		<Vertices> 380 433 381 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "556">
+		<Vertices> 373 434 374 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "557">
+		<Vertices> 413 435 414 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "558">
+		<Vertices> 381 436 373 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "559">
+		<Vertices> 414 437 415 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "560">
+		<Vertices> 428 438 413 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "561">
+		<Vertices> 415 433 380 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "562">
+		<Vertices> 374 439 402 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "563">
+		<Vertices> 381 433 436 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "564">
+		<Vertices> 374 434 439 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "565">
+		<Vertices> 438 435 413 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "566">
+		<Vertices> 373 436 434 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "567">
+		<Vertices> 435 437 414 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "568">
+		<Vertices> 440 438 428 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "569">
+		<Vertices> 437 433 415 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "570">
+		<Vertices> 402 439 441 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "571">
+		<Vertices> 442 443 444 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "572">
+		<Vertices> 443 445 444 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "573">
+		<Vertices> 444 445 446 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "574">
+		<Vertices> 445 447 446 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "575">
+		<Vertices> 446 447 448 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "576">
+		<Vertices> 449 450 451 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "577">
+		<Vertices> 450 452 451 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "578">
+		<Vertices> 451 452 453 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "579">
+		<Vertices> 452 454 453 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "580">
+		<Vertices> 453 454 455 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "581">
+		<Vertices> 454 456 455 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "582">
+		<Vertices> 455 456 457 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "583">
+		<Vertices> 458 459 460 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "584">
+		<Vertices> 459 461 460 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "585">
+		<Vertices> 460 461 462 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "586">
+		<Vertices> 461 463 462 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "587">
+		<Vertices> 462 463 464 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "588">
+		<Vertices> 465 466 467 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "589">
+		<Vertices> 466 468 467 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "590">
+		<Vertices> 467 468 469 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "591">
+		<Vertices> 468 470 469 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "592">
+		<Vertices> 469 470 471 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "593">
+		<Vertices> 472 473 474 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "594">
+		<Vertices> 473 475 474 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "595">
+		<Vertices> 474 475 476 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "596">
+		<Vertices> 475 477 476 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "597">
+		<Vertices> 476 477 478 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "598">
+		<Vertices> 477 479 478 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "599">
+		<Vertices> 478 479 480 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "600">
+		<Vertices> 481 482 483 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "601">
+		<Vertices> 482 484 483 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "602">
+		<Vertices> 483 484 485 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "603">
+		<Vertices> 484 486 485 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "604">
+		<Vertices> 485 486 487 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "605">
+		<Vertices> 446 448 488 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "606">
+		<Vertices> 448 489 488 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "607">
+		<Vertices> 488 489 490 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "608">
+		<Vertices> 489 491 490 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "609">
+		<Vertices> 490 491 492 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "610">
+		<Vertices> 491 493 492 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "611">
+		<Vertices> 492 493 494 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "612">
+		<Vertices> 493 449 494 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "613">
+		<Vertices> 494 449 451 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "614">
+		<Vertices> 495 496 497 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "615">
+		<Vertices> 496 498 497 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "616">
+		<Vertices> 497 498 499 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "617">
+		<Vertices> 498 500 499 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "618">
+		<Vertices> 499 500 501 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "619">
+		<Vertices> 500 502 501 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "620">
+		<Vertices> 501 502 503 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "621">
+		<Vertices> 502 504 503 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "622">
+		<Vertices> 503 504 505 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "623">
+		<Vertices> 504 506 505 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "624">
+		<Vertices> 505 506 456 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "625">
+		<Vertices> 454 452 505 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "626">
+		<Vertices> 452 507 505 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "627">
+		<Vertices> 505 507 503 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "628">
+		<Vertices> 507 508 503 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "629">
+		<Vertices> 503 508 501 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "630">
+		<Vertices> 508 509 501 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "631">
+		<Vertices> 501 509 499 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "632">
+		<Vertices> 509 510 499 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "633">
+		<Vertices> 499 510 497 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "634">
+		<Vertices> 510 460 497 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "635">
+		<Vertices> 497 460 495 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "636">
+		<Vertices> 460 462 495 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "637">
+		<Vertices> 510 509 511 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "638">
+		<Vertices> 509 512 511 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "639">
+		<Vertices> 511 512 513 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "640">
+		<Vertices> 512 514 513 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "641">
+		<Vertices> 513 514 489 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "642">
+		<Vertices> 514 515 489 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "643">
+		<Vertices> 489 515 491 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "644">
+		<Vertices> 515 516 491 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "645">
+		<Vertices> 491 516 493 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "646">
+		<Vertices> 516 517 493 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "647">
+		<Vertices> 493 517 449 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "648">
+		<Vertices> 517 518 449 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "649">
+		<Vertices> 449 518 450 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "650">
+		<Vertices> 518 507 450 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "651">
+		<Vertices> 450 507 452 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "652">
+		<Vertices> 444 446 519 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "653">
+		<Vertices> 446 488 519 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "654">
+		<Vertices> 519 488 520 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "655">
+		<Vertices> 488 490 520 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "656">
+		<Vertices> 520 490 521 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "657">
+		<Vertices> 490 492 521 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "658">
+		<Vertices> 521 492 522 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "659">
+		<Vertices> 492 494 522 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "660">
+		<Vertices> 522 494 451 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "661">
+		<Vertices> 455 523 453 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "662">
+		<Vertices> 523 524 453 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "663">
+		<Vertices> 453 524 522 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "664">
+		<Vertices> 505 456 454 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "665">
+		<Vertices> 525 526 447 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "666">
+		<Vertices> 447 526 448 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "667">
+		<Vertices> 526 513 448 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "668">
+		<Vertices> 448 513 489 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "669">
+		<Vertices> 525 527 526 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "670">
+		<Vertices> 527 458 526 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "671">
+		<Vertices> 526 458 528 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "672">
+		<Vertices> 458 460 528 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "673">
+		<Vertices> 528 460 510 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "674">
+		<Vertices> 443 525 445 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "675">
+		<Vertices> 525 447 445 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "676">
+		<Vertices> 478 480 529 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "677">
+		<Vertices> 480 530 529 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "678">
+		<Vertices> 529 530 531 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "679">
+		<Vertices> 530 532 531 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "680">
+		<Vertices> 531 532 533 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "681">
+		<Vertices> 532 534 533 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "682">
+		<Vertices> 533 534 535 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "683">
+		<Vertices> 534 465 535 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "684">
+		<Vertices> 535 465 467 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "685">
+		<Vertices> 473 536 475 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "686">
+		<Vertices> 475 536 477 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "687">
+		<Vertices> 536 537 477 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "688">
+		<Vertices> 477 537 479 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "689">
+		<Vertices> 537 538 479 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "690">
+		<Vertices> 479 538 480 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "691">
+		<Vertices> 538 539 480 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "692">
+		<Vertices> 480 539 530 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "693">
+		<Vertices> 539 540 530 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "694">
+		<Vertices> 530 540 532 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "695">
+		<Vertices> 540 541 532 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "696">
+		<Vertices> 532 541 534 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "697">
+		<Vertices> 541 542 534 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "698">
+		<Vertices> 534 542 543 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "699">
+		<Vertices> 542 544 543 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "700">
+		<Vertices> 543 544 545 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "701">
+		<Vertices> 544 546 545 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "702">
+		<Vertices> 545 546 547 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "703">
+		<Vertices> 546 548 547 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "704">
+		<Vertices> 547 548 549 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "705">
+		<Vertices> 548 550 549 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "706">
+		<Vertices> 549 550 551 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "707">
+		<Vertices> 551 552 549 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "708">
+		<Vertices> 552 485 549 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "709">
+		<Vertices> 549 485 547 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "710">
+		<Vertices> 485 553 547 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "711">
+		<Vertices> 547 553 545 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "712">
+		<Vertices> 553 554 545 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "713">
+		<Vertices> 545 554 543 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "714">
+		<Vertices> 554 465 543 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "715">
+		<Vertices> 543 465 534 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "716">
+		<Vertices> 485 552 483 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "717">
+		<Vertices> 540 555 541 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "718">
+		<Vertices> 541 555 544 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "719">
+		<Vertices> 555 556 544 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "720">
+		<Vertices> 544 556 546 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "721">
+		<Vertices> 556 557 546 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "722">
+		<Vertices> 546 557 548 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "723">
+		<Vertices> 557 558 548 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "724">
+		<Vertices> 548 558 550 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "725">
+		<Vertices> 473 559 536 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "726">
+		<Vertices> 559 560 536 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "727">
+		<Vertices> 536 560 561 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "728">
+		<Vertices> 560 562 561 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "729">
+		<Vertices> 561 562 557 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "730">
+		<Vertices> 562 558 557 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "731">
+		<Vertices> 478 529 563 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "732">
+		<Vertices> 529 531 563 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "733">
+		<Vertices> 563 531 564 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "734">
+		<Vertices> 531 533 564 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "735">
+		<Vertices> 564 533 565 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "736">
+		<Vertices> 533 535 565 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "737">
+		<Vertices> 565 535 566 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "738">
+		<Vertices> 535 467 566 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "739">
+		<Vertices> 566 467 469 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "740">
+		<Vertices> 563 567 476 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "741">
+		<Vertices> 567 568 476 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "742">
+		<Vertices> 476 568 474 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "743">
+		<Vertices> 569 570 554 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "744">
+		<Vertices> 570 466 554 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "745">
+		<Vertices> 554 466 465 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "746">
+		<Vertices> 569 554 487 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "747">
+		<Vertices> 554 553 487 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "748">
+		<Vertices> 487 553 485 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "749">
+		<Vertices> 466 570 468 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "750">
+		<Vertices> 570 470 468 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "751">
+		<Vertices> 513 526 511 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "752">
+		<Vertices> 526 528 511 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "753">
+		<Vertices> 511 528 510 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "754">
+		<Vertices> 516 515 571 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "755">
+		<Vertices> 515 512 571 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "756">
+		<Vertices> 571 512 508 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "757">
+		<Vertices> 512 509 508 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "758">
+		<Vertices> 453 522 451 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "759">
+		<Vertices> 516 571 517 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "760">
+		<Vertices> 517 571 518 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "761">
+		<Vertices> 571 508 518 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "762">
+		<Vertices> 518 508 507 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "763">
+		<Vertices> 512 515 514 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "764">
+		<Vertices> 538 537 556 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "765">
+		<Vertices> 537 561 556 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "766">
+		<Vertices> 556 561 557 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "767">
+		<Vertices> 563 476 478 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "768">
+		<Vertices> 540 539 555 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "769">
+		<Vertices> 539 538 555 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "770">
+		<Vertices> 555 538 556 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "771">
+		<Vertices> 561 537 536 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "772">
+		<Vertices> 541 544 542 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "773">
+		<Vertices> 572 573 574 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "774">
+		<Vertices> 573 575 574 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "775">
+		<Vertices> 574 575 576 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "776">
+		<Vertices> 575 577 576 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "777">
+		<Vertices> 576 577 578 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "778">
+		<Vertices> 577 579 578 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "779">
+		<Vertices> 578 579 580 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "780">
+		<Vertices> 579 581 580 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "781">
+		<Vertices> 580 581 582 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "782">
+		<Vertices> 581 583 582 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "783">
+		<Vertices> 582 583 584 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "784">
+		<Vertices> 583 585 584 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "785">
+		<Vertices> 584 585 586 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "786">
+		<Vertices> 585 587 586 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "787">
+		<Vertices> 586 587 588 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "788">
+		<Vertices> 587 589 588 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "789">
+		<Vertices> 588 589 590 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "790">
+		<Vertices> 589 591 590 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "791">
+		<Vertices> 590 591 592 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "792">
+		<Vertices> 591 593 592 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "793">
+		<Vertices> 592 593 594 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "794">
+		<Vertices> 593 595 594 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "795">
+		<Vertices> 594 595 596 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "796">
+		<Vertices> 595 597 596 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "797">
+		<Vertices> 597 572 596 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "798">
+		<Vertices> 573 572 597 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "799">
+		<Vertices> 593 598 595 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "800">
+		<Vertices> 595 598 599 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "801">
+		<Vertices> 598 600 599 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "802">
+		<Vertices> 599 600 601 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "803">
+		<Vertices> 600 602 601 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "804">
+		<Vertices> 601 602 603 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "805">
+		<Vertices> 604 605 606 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "806">
+		<Vertices> 606 605 607 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "807">
+		<Vertices> 605 608 607 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "808">
+		<Vertices> 607 608 609 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "809">
+		<Vertices> 608 610 609 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "810">
+		<Vertices> 609 610 611 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "811">
+		<Vertices> 610 612 611 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "812">
+		<Vertices> 611 612 613 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "813">
+		<Vertices> 612 614 613 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "814">
+		<Vertices> 613 614 615 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "815">
+		<Vertices> 614 616 615 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "816">
+		<Vertices> 615 616 617 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "817">
+		<Vertices> 616 618 617 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "818">
+		<Vertices> 617 618 619 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "819">
+		<Vertices> 618 620 619 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "820">
+		<Vertices> 619 620 621 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "821">
+		<Vertices> 620 622 621 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "822">
+		<Vertices> 621 622 623 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "823">
+		<Vertices> 622 624 623 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "824">
+		<Vertices> 623 624 625 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "825">
+		<Vertices> 624 626 625 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "826">
+		<Vertices> 625 626 627 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "827">
+		<Vertices> 626 628 627 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "828">
+		<Vertices> 627 628 629 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "829">
+		<Vertices> 628 604 629 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "830">
+		<Vertices> 629 604 606 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "831">
+		<Vertices> 625 627 630 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "832">
+		<Vertices> 627 631 630 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "833">
+		<Vertices> 630 631 632 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "834">
+		<Vertices> 631 633 632 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "835">
+		<Vertices> 632 633 634 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "836">
+		<Vertices> 633 635 634 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "837">
+		<Vertices> 636 637 638 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "838">
+		<Vertices> 637 639 638 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "839">
+		<Vertices> 638 639 640 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "840">
+		<Vertices> 639 641 640 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "841">
+		<Vertices> 640 641 642 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "842">
+		<Vertices> 641 643 642 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "843">
+		<Vertices> 642 643 644 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "844">
+		<Vertices> 643 645 644 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "845">
+		<Vertices> 644 645 646 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "846">
+		<Vertices> 645 647 646 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "847">
+		<Vertices> 648 636 649 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "848">
+		<Vertices> 636 638 649 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "849">
+		<Vertices> 649 638 650 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "850">
+		<Vertices> 638 640 650 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "851">
+		<Vertices> 650 640 651 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "852">
+		<Vertices> 640 642 651 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "853">
+		<Vertices> 651 642 652 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "854">
+		<Vertices> 642 644 652 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "855">
+		<Vertices> 652 644 653 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "856">
+		<Vertices> 644 646 653 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "857">
+		<Vertices> 654 648 655 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "858">
+		<Vertices> 648 649 655 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "859">
+		<Vertices> 655 649 656 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "860">
+		<Vertices> 649 650 656 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "861">
+		<Vertices> 656 650 657 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "862">
+		<Vertices> 650 651 657 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "863">
+		<Vertices> 657 651 658 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "864">
+		<Vertices> 651 652 658 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "865">
+		<Vertices> 658 652 659 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "866">
+		<Vertices> 652 653 659 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "867">
+		<Vertices> 660 654 661 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "868">
+		<Vertices> 654 655 661 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "869">
+		<Vertices> 661 655 662 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "870">
+		<Vertices> 655 656 662 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "871">
+		<Vertices> 662 656 663 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "872">
+		<Vertices> 656 657 663 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "873">
+		<Vertices> 663 657 664 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "874">
+		<Vertices> 657 658 664 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "875">
+		<Vertices> 664 658 665 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "876">
+		<Vertices> 658 659 665 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "877">
+		<Vertices> 666 660 667 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "878">
+		<Vertices> 660 661 667 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "879">
+		<Vertices> 667 661 668 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "880">
+		<Vertices> 661 662 668 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "881">
+		<Vertices> 668 662 669 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "882">
+		<Vertices> 662 663 669 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "883">
+		<Vertices> 669 663 670 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "884">
+		<Vertices> 663 664 670 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "885">
+		<Vertices> 670 664 671 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "886">
+		<Vertices> 664 665 671 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+</Scene>

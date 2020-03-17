@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--This test is used to see if out of sight objects are rendered correctly.-->
+<Scene>
+
+	<Material id=1>
+		<Ambient>0.3 0.3 0.5</Ambient>
+		<Diffuse>0.3 0.3 0.5</Diffuse>
+		<Specular>0.3 0.3 0.5 50</Specular>
+		<Reflectance>1 1 1</Reflectance>
+	</Material>
+		<Material id=2>
+		<Ambient>1 0.3 0.3</Ambient>
+		<Diffuse>1 0.3 0.3</Diffuse>
+		<Specular>1 0.3 0.3 50</Specular>
+		<Reflectance>0 0 0</Reflectance>
+	</Material>
+	<Material id=3>
+		<Ambient>0.3 0.5 0.3</Ambient>
+		<Diffuse>0 1 0</Diffuse>
+		<Specular>0 1 0 50</Specular>
+		<Reflectance>1 1 1</Reflectance>
+	</Material>
+	<Vertex id = "1">
+		<Coordinates> -1.042400 0.626387 -0.850274 </Coordinates>
+	</Vertex>
+	<Vertex id = "2">
+		<Coordinates> 0.957600 0.626387 -0.850274 </Coordinates>
+	</Vertex>
+	<Vertex id = "3">
+		<Coordinates> -1.042400 -0.525543 0.840151 </Coordinates>
+	</Vertex>
+	<Vertex id = "4">
+		<Coordinates> 0.957600 -0.525543 0.840151 </Coordinates>
+	</Vertex>
+	<Triangle id = "1">
+		<Vertices> 3 4 2 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<Triangle id = "2">
+		<Vertices> 3 2 1 </Vertices>
+		<MaterialId> 1 </MaterialId>
+	</Triangle>
+	<AmbientLight> 120 120 120 </AmbientLight>
+	<BackgroundColor> 0 0 0 </BackgroundColor>
+	<RayReflectionCount> 3 </RayReflectionCount>
+	<Vertex id = "5">
+		<Coordinates> 0.1 2 0.7 </Coordinates>
+	</Vertex>
+	<Vertex id = "6">
+		<Coordinates> 0.1 4 -0.5 </Coordinates>
+	</Vertex>
+	<Vertex id = "7">
+		<Coordinates> -0.5 1 0.6 </Coordinates>
+	</Vertex>
+	<Vertex id = "8">
+		<Coordinates> 0.957600 -0.525543 0.840151 </Coordinates>
+	</Vertex>
+	<Sphere id = "1">
+		<Center> 5 </Center>
+		<Radius> 0.2 </Radius>
+		<MaterialId> 2 </MaterialId>
+	</Sphere>
+	<Sphere id = "2">
+		<Center> 6 </Center>
+		<Radius> 0.4 </Radius>
+		<MaterialId> 1 </MaterialId>
+	</Sphere>
+	<Sphere id = "3">
+		<Center> 7 </Center>
+		<Radius> 0.2 </Radius>
+		<MaterialId> 3</MaterialId>
+	</Sphere>
+	<Camera id=1>
+		<Position>0 0 2</Position>
+		<Gaze>0 0 -1</Gaze>
+		<Up>0 1 0</Up>
+		<ImagePlane>-10 10 -10 10 10 512 512</ImagePlane>
+		<OutputName>plane_sphere.ppm</OutputName>
+	</Camera>
+	<PointLight id=0>
+		<Position>0 5 3</Position>
+		<Intensity>20000 20000 20000</Intensity>
+	</PointLight>
+</Scene>

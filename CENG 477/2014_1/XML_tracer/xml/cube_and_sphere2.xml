@@ -1,0 +1,108 @@
+<Scene>
+	<Material id=1>
+		<Ambient>0.2 0.2 0.2</Ambient>
+		<Diffuse>0.8 0.8 0.8</Diffuse>
+		<Specular>0.6 0.6 0.6 3</Specular>
+		<Reflectance>0.0 0.0 0.0</Reflectance>
+	</Material>
+	<Material id=2>
+		<Ambient>0.2 0.2 0.2</Ambient>
+		<Diffuse>0.8 0.2 0.2</Diffuse>
+		<Specular>0.5 0.5 0.5 30</Specular>
+		<Reflectance>1.0 1.0 1.0</Reflectance>
+	</Material>
+	<Vertex id=1>
+		<Coordinates>-1 -1 1</Coordinates>
+	</Vertex>
+	<Vertex id=2>
+		<Coordinates>1 -1 1</Coordinates>
+	</Vertex>
+	<Vertex id=3>
+		<Coordinates>1 1 1</Coordinates>
+	</Vertex>
+	<Vertex id=4>
+		<Coordinates>-1 1 1</Coordinates>
+	</Vertex>
+	<Vertex id=5>
+		<Coordinates>-1 -1 -1</Coordinates>
+	</Vertex>
+	<Vertex id=6>
+		<Coordinates>1 -1 -1</Coordinates>
+	</Vertex>
+	<Vertex id=7>
+		<Coordinates>1 1 -1</Coordinates>
+	</Vertex>
+	<Vertex id=8>
+		<Coordinates>-1 1 -1</Coordinates>
+	</Vertex>
+	<Vertex id=9>
+		<Coordinates>3 0 0</Coordinates>
+	</Vertex>
+	<Triangle id=1>
+		<Vertices>1 2 3</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=2>
+		<Vertices>3 4 1</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=3>
+		<Vertices>5 8 7</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=4>
+		<Vertices>6 5 7</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=5>
+		<Vertices>4 8 5</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=6>
+		<Vertices>1 4 5</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=7>
+		<Vertices>7 3 6</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=8>
+		<Vertices>3 2 6</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=9>
+		<Vertices>4 3 8</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=10>
+		<Vertices>3 7 8</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=11>
+		<Vertices>2 1 5</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Triangle id=12>
+		<Vertices>2 5 6</Vertices>
+		<MaterialId>1</MaterialId>
+	</Triangle>
+	<Sphere id=1>
+		<Center>9</Center>
+		<Radius>0.5</Radius>
+		<MaterialId>2</MaterialId>
+	</Sphere>
+	<PointLight id=1>
+		<Position>5 5 5</Position>
+		<Intensity>500 500 500</Intensity>
+	</PointLight>
+	<AmbientLight>60 60 60</AmbientLight>
+	<BackgroundColor>0 0 0</BackgroundColor>
+	<RayReflectionCount>6</RayReflectionCount>
+	<Camera id=1>
+		<Position>2 2 4</Position>
+		<Gaze>-0.276172 -0.276172 -0.920575</Gaze>
+		<Up>0 1 0</Up>
+		<ImagePlane>-1 1 -1 1 1 1024 768</ImagePlane>
+		<OutputName>cube_and_sphere2.ppm</OutputName>
+	</Camera>
+</Scene>

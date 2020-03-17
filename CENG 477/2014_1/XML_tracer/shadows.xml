@@ -1,0 +1,80 @@
+<!--test of shadows under multiple lights-->
+<Scene>
+	<Material id=1>
+		<Ambient>0 0 1</Ambient>
+		<Diffuse>0 0 1</Diffuse>
+		<Specular>1 1 1 1000</Specular>
+		<Reflectance>0 0 0</Reflectance>
+	</Material>
+	<Material id=2>
+		<Ambient>1 1 1</Ambient>
+		<Diffuse>1 1 1</Diffuse>
+		<Specular>0 0 0 50</Specular>
+		<Reflectance>1.0 1.0 1.0</Reflectance>
+	</Material>
+		<Material id=3>
+		<Ambient>1 0 0</Ambient>
+		<Diffuse>1 0 0</Diffuse>
+		<Specular>1 1 1 1000</Specular>
+		<Reflectance>1.0 1.0 1.0</Reflectance>
+	</Material>
+	<Vertex id=1>
+		<Coordinates>0 0 -10</Coordinates>
+	</Vertex>
+	<Vertex id=6>
+		<Coordinates>-3 0 3</Coordinates>
+	</Vertex>
+	<Vertex id=2>
+		<Coordinates>-100 -10 100</Coordinates>
+	</Vertex>
+	<Vertex id=3>
+		<Coordinates>100 -10 100 </Coordinates>
+	</Vertex>
+	<Vertex id=4>
+		<Coordinates>-100 -10 -100</Coordinates>
+	</Vertex>
+	<Vertex id=5>
+		<Coordinates>100 -10 -100</Coordinates>
+	</Vertex>
+	<Triangle id = "1">
+		<Vertices> 3 4 2 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Triangle id = "2">
+		<Vertices> 5 4 3 </Vertices>
+		<MaterialId> 2 </MaterialId>
+	</Triangle>
+	<Sphere id=1>
+		<Center>1</Center>
+		<Radius>6</Radius>
+		<MaterialId>1</MaterialId>
+	</Sphere>
+	<Sphere id=2>
+		<Center>6</Center>
+		<Radius>4</Radius>
+		<MaterialId>3</MaterialId>
+	</Sphere>
+	<PointLight id=1>
+		<Position>3 11 -8</Position>
+		<Intensity>0 0 900000</Intensity>
+	</PointLight>
+	<PointLight id=2>
+		<Position>-3 11 8</Position>
+		<Intensity>900000 0 0</Intensity>
+	</PointLight>
+	<PointLight id=3>
+		<Position>-3 11 -8</Position>
+		<Intensity>0 900000 0</Intensity>
+	</PointLight>
+	
+	<AmbientLight>32.5 32.5 32.5</AmbientLight>
+	<BackgroundColor>0 0 0</BackgroundColor>
+	<RayReflectionCount>1</RayReflectionCount>
+	<Camera id=1>
+		<Position>0 15 -5</Position>
+		<Gaze>0 -1 0</Gaze>
+		<Up> 0 0 -1</Up>
+		<ImagePlane>-5 5 -5 5 5 512 512</ImagePlane>
+		<OutputName>shadows.ppm</OutputName>
+	</Camera>
+</Scene>

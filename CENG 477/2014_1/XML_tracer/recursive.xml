@@ -1,0 +1,75 @@
+<!--Simple test scene for a relatively high number of reflections, involving 5 spheres-->
+<?xml version="1.0" encoding="windows-1252"?>
+<Scene>
+	<AmbientLight> 12.5 12.5 12.5 </AmbientLight>
+	<BackgroundColor> 0 0 0 </BackgroundColor>
+	<RayReflectionCount> 5 </RayReflectionCount>	
+	<Camera id="0">
+		<Position> 0 0 20 </Position>
+		<Gaze> 0 0 -1 </Gaze>
+		<Up> 0 1 0 </Up>
+		<ImagePlane> -10 10 -10 10 12.5 720 720 </ImagePlane>
+		<OutputName> recursive.ppm </OutputName>
+	</Camera>
+	<Material id="1">
+		<Ambient> 0 0 1 </Ambient>
+		<Diffuse> 0 0 1 </Diffuse>
+		<Specular> 1 1 1 50 </Specular>
+		<Reflectance> 0.9 0.9 0.9 </Reflectance>
+	</Material>	
+	<Material id="2">
+		<Ambient> 1 0 0 </Ambient>
+		<Diffuse> 1 0 0 </Diffuse>
+		<Specular> 1 1 1 50 </Specular>
+		<Reflectance> 0.9 0.9 0.9 </Reflectance>
+	</Material>	
+	<Material id="3">
+		<Ambient> 0 1 0 </Ambient>
+		<Diffuse> 0 1 0 </Diffuse>
+		<Specular> 1 1 1 50 </Specular>
+		<Reflectance> 0.9 0.9 0.9 </Reflectance>
+	</Material>	
+	<Material id="4">
+		<Ambient> 1 1 0 </Ambient>
+		<Diffuse> 1 1 0 </Diffuse>
+		<Specular> 1 1 1 50 </Specular>
+		<Reflectance> 0.9 0.9 0.9 </Reflectance>
+	</Material>	
+	<Vertex id="0">
+		<Coordinates> -9 0 -5 </Coordinates>
+	</Vertex>
+	<Vertex id="1">
+		<Coordinates> 9 0 -5 </Coordinates>
+	</Vertex>
+	<Vertex id="2">
+		<Coordinates> 0 9 -5 </Coordinates>
+	</Vertex>
+	<Vertex id="3">
+		<Coordinates> 0 -9 -5 </Coordinates>
+	</Vertex>	
+	<Sphere id="0">
+		<Center> 0 </Center>
+		<Radius> 6 </Radius>
+		<MaterialId> 1 </MaterialId>
+	</Sphere>
+	<Sphere id="1">
+		<Center> 1 </Center>
+		<Radius> 6 </Radius>
+		<MaterialId> 2 </MaterialId>
+	</Sphere>
+	<Sphere id="2">
+		<Center> 2 </Center>
+		<Radius> 6 </Radius>
+		<MaterialId> 3 </MaterialId>
+	</Sphere>		
+	<Sphere id="3">
+		<Center> 3 </Center>
+		<Radius> 6 </Radius>
+		<MaterialId> 4 </MaterialId>
+	</Sphere>		
+	<PointLight id="0">
+		<Position> 0 0 18.0  </Position>
+		<Intensity> 900000 900000 900000 </Intensity> 
+	</PointLight>
+</Scene>
+
